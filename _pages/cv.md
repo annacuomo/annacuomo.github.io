@@ -11,21 +11,20 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Mathematical Engineering, Politecnico di Milano, Milan, Italy 2014
+* M.S. in Computer Science (Bioinformatics), TU Delft, Delft, The Netherlands 2016
+* Ph.D in Statistical Genetics, Cambridge University, 2020
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* November 2020-present: Postdoctoral researcher
+  * Wellcome Sanger Institute
+  * Supervisor: Prof. Nicole Soranzo
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2016-2020: PhD Fellow
+  * EMBL-EBI & Cambridge University
+  * Thesis: Using single-cell RNA-seq to assess the effect of common genetic variants on gene expression during development
+  * Supervisor: Dr. Oliver Stegle, Dr. John Marioni (joint)
   
 Skills
 ======
