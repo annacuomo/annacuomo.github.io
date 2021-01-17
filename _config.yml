@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : ""
+title                    : "annacuomo.github.io"
 title_separator          : "-"
 name                     : &name "Anna Cuomo"
-description              : &description "personal description"
+description              : &description "Research Associate at Wellcome Sanger Institute, previously PhD at EMBL-EBI and Cambridge University"
 url                      : https://annacuomo.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "annacuomo/annacuomo.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : &AnnaCuomo92
 facebook:
   username               :
   app_id                 :
