@@ -85,8 +85,8 @@ author:
   bio              : "Postdoc at Wellcome Sanger Institute, Prof. Nicole Soranzo, previously PhD at EMBL-EBI and Cambridge University with Dr. Oliver Stegle and Dr. John Marioni"
   location         : "Cambridge, UK"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.com/citations?user=M5g8pBYAAAAJ&hl=en&oi=ao"
+  pubmed           : "https://pubmed.ncbi.nlm.nih.gov/?term=anna+cuomo"
+  googlescholar    : "https://scholar.google.com/citations?user=Uu1L_mkAAAAJ&hl=en&oi=ao"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -110,7 +110,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "AnnaCuomo92"
+  twitter          : "AnnaSECuomo"
   vine             :
   weibo            :
   xing             :
