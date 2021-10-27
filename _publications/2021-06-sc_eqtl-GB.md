@@ -11,4 +11,4 @@ citation: 'Cuomo et al. (2021). &quot;Optimizing expression quantitative trait l
 
 [Download paper here](http://annacuomo.github.io/files/s13059-021-02407-x.pdf)
 
-Recommended citation: Cuomo*, Alvari*, Azodi* et al. (2021). "Optimizing expression quantitative trait locus mapping workflows for single-cell studies." <i>Genome Biology</i>. 1(2).
+Recommended citation: Cuomo ASE et al. (2021). "Optimizing expression quantitative trait locus mapping workflows for single-cell studies." <i>Genome Biology</i>. 22, 188.
