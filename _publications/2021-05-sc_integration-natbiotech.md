@@ -9,6 +9,6 @@ paperurl: 'https://www.nature.com/articles/s41587-021-00895-7'
 citation: 'Argelaguet, Cuomo, Stegle, Marioni (2021). &quot;Computational principles and challenges in single-cell data integration.&quot; <i>Nature Biotechnology</i>. 1(2).'
 ---
 
-[Download paper here](http://academicpages.github.io/files/Argelaguet_Cuomo_Stegle_Marioni.pdf)
+[Download paper here](http://annacuomo.github.io/files/s13059-021-02407-x.pdf)
 
 Recommended citation: Argelaguet, Cuomo, Stegle, Marioni (2021). "Computational principles and challenges in single-cell data integration." <i>Nature Biotechnology</i>. 1(2).
