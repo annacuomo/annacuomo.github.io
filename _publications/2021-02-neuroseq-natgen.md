@@ -9,6 +9,6 @@ paperurl: 'https://www.nature.com/articles/s41588-021-00801-6'
 citation: 'Jerber*, Seaton*, Cuomo* (2021). &quot;Population-scale single-cell RNA-seq profiling across dopaminergic neuron differentiation.&quot; <i>Nature Genetics</i>. 1(2).'
 ---
 
-[Download paper here](http://academicpages.github.io/files/Jerber_Seaton_Cuomo.pdf)
+[Download paper here](http://annacuomo.github.io/files/Jerber_Seaton_Cuomo.pdf)
 
 Recommended citation: Jerber*, Seaton*, Cuomo* (2021). "Population-scale single-cell RNA-seq profiling across dopaminergic neuron differentiation." <i>Nature Genetics</i>. 1(2).
