@@ -14,6 +14,6 @@ My PhD work was concerned with the development of integrative statistical models
 I have contributed to the analysis of datasets from the HipSci (Human Induced Pluripotent Stem Cells Initiative) and the Human Cell Atlas (HCA) projects, and am a member of the single-cell eQTLGen Consortium. 
 Previously, I obtained my Master’s in Computer Science, track Bioinformatics from the Delft University of Technology, The Netherlands, and Bachelor’s degree in Mathematical Engineering from the Politecnico di Milano, Italy. 
 
-I will shortly be relocating for a post-doctoral position at the Garvan Institute in Sydney, Australia under the joint supervision of Professors Joseph Powell and Daniel MacArthur, with an interest in developing further methods for statistical genetics using single-cell genomic data. 
+I will shortly be relocating for a post-doctoral position at the Garvan Institute in Sydney, Australia under the joint supervision of Professors [Joseph Powell](https://www.garvan.org.au/people/jospow) and [Daniel MacArthur](https://macarthurlab.org), with an interest in developing further methods for statistical genetics using single-cell genomic data. 
 Eventually, I hope to apply these methods to study the genetic contribution and phenotypic variability of disease states including Parkinson's disease and diabetes. 
 In the future, I hope to translate these findings into novel therapeutic interventions and diagnostics for patients.
