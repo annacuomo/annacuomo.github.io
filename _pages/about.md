@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Research Associate at the Wellcome Sanger Insitute with Prof. Nicole Soranzo, after recentluy finishing my PhD at the University of Cambridge and the European Bioinformatics Institute, under the joint supervision of Oliver Stegle and John Marioni (2020). 
+I am a Research Associate at the Wellcome Sanger Insitute with [Prof. Nicole Soranzo](https://www.sanger.ac.uk/person/soranzo-nicole/), after recentluy finishing my PhD at the University of Cambridge and the European Bioinformatics Institute, under the joint supervision of [Oliver Stegle](https://www.embl.org/groups/stegle/) and [John Marioni](https://www.ebi.ac.uk/about/people/john-marioni) (2020). 
 My research interests lie in the fields of statistical genetics, computational biology, single cell genomics, and machine learning. 
 My PhD work was concerned with the development of integrative statistical models to link DNA variants to single cell expression profiles, to uncover molecular mechanisms that might help us interpret and unravel the genotype-phenotype map. 
 I have contributed to the analysis of datasets from the HipSci (Human Induced Pluripotent Stem Cells Initiative) and the Human Cell Atlas (HCA) projects, and am a member of the single-cell eQTLGen Consortium. 
