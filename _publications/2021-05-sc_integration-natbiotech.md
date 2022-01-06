@@ -11,4 +11,4 @@ citation: 'Argelaguet, Cuomo, Stegle, Marioni (2021). &quot;Computational princi
 
 [Download paper here](http://annacuomo.github.io/files/s41587-021-00895-7.pdf)
 
-Recommended citation: Argelaguet, Cuomo, Stegle, Marioni (2021). "Computational principles and challenges in single-cell data integration." <i>Nature Biotechnology</i>. 1(2).
+Recommended citation: Argelaguet R, Cuomo ASE, Stegle O, and Marioni JC (2021). "Computational principles and challenges in single-cell data integration." <i>Nature Biotechnology</i>. 1(2).
