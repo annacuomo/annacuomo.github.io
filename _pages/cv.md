@@ -17,7 +17,11 @@ Education
 
 Work experience
 ======
-* November 2020-present: Postdoctoral researcher
+* December 2021-present: Postdoctoral researcher
+  * Garvan Institute of Medical Research
+  * Supervisor: Prof. Joseph Powell, Prof. Daniel MacArthur (joint)
+
+* 2020-2021: Postdoctoral researcher
   * Wellcome Sanger Institute
   * Supervisor: Prof. Nicole Soranzo
 
