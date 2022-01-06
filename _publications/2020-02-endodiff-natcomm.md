@@ -11,4 +11,4 @@ citation: 'Cuomo ASE et al. (2020). <i> Nature Communications</i>. 1(1).'
 
 [Download paper here](http://annacuomo.github.io/files/s41467-020-14457-z.pdf)
 
-Recommended citation: Cuomo ASE et al. "Single-cell RNA-sequencing of differentiating iPS cells reveals dynamic genetic effects on gene expression." <i>Nature Communications</i> 11, 810 (2020).
+Recommended citation: Cuomo ASE*, Seaton DD*, McCarthy DJ* et al. "Single-cell RNA-sequencing of differentiating iPS cells reveals dynamic genetic effects on gene expression." <i>Nature Communications</i> 11, 810 (2020).
