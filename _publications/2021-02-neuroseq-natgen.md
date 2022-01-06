@@ -11,4 +11,4 @@ citation: 'Jerber*, Seaton*, Cuomo* (2021). &quot;Population-scale single-cell R
 
 [Download paper here](http://annacuomo.github.io/files/s41588-021-00801-6.pdf)
 
-Recommended citation: Jerber*, Seaton*, Cuomo* (2021). "Population-scale single-cell RNA-seq profiling across dopaminergic neuron differentiation." <i>Nature Genetics</i>. 53, 304–312.
+Recommended citation: Jerber J*, Seaton DD*, Cuomo ASE* et al (2021). "Population-scale single-cell RNA-seq profiling across dopaminergic neuron differentiation." <i>Nature Genetics</i>. 53, 304–312.
