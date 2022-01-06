@@ -6,7 +6,7 @@ excerpt: 'We evaluate the role of different normalisation and aggregation strate
 date: 2021-06-24
 venue: 'Genome Biology'
 paperurl: 'https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02407-x'
-citation: 'Cuomo et al. (2021). &quot;Optimizing expression quantitative trait locus mapping workflows for single-cell studies.&quot; <i>Genome Biology</i>. 22, 188'
+citation: 'Cuomo ASE*, Alvari G*, Azodi CB* et al. (2021). &quot;Optimizing expression quantitative trait locus mapping workflows for single-cell studies.&quot; <i>Genome Biology</i>. 22, 188'
 ---
 
 [Download paper here](http://annacuomo.github.io/files/s13059-021-02407-x.pdf)
