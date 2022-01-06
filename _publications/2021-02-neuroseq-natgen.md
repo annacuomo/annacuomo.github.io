@@ -6,7 +6,7 @@ excerpt: 'We studied iPSC differentiation toward dopaminergic neurons across ove
 date: 2021-02-01
 venue: 'Nature Genetics'
 paperurl: 'https://www.nature.com/articles/s41588-021-00801-6'
-citation: 'Jerber*, Seaton*, Cuomo* (2021). &quot;Population-scale single-cell RNA-seq profiling across dopaminergic neuron differentiation.&quot; <i>Nature Genetics</i>. 53, 304-312.'
+citation: 'Jerber J*, Seaton DD*, Cuomo ASE* et al (2021). &quot;Population-scale single-cell RNA-seq profiling across dopaminergic neuron differentiation.&quot; <i>Nature Genetics</i>. 53, 304-312.'
 ---
 
 [Download paper here](http://annacuomo.github.io/files/s41588-021-00801-6.pdf)
