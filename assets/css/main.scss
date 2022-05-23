@@ -39,3 +39,8 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* overwrite existing classes (style) */
+.archive__item-title {
+    font-size: .8em;
+}
