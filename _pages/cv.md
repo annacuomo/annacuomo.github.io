@@ -23,7 +23,7 @@ Work experience
 
 * 2020-2021: Postdoctoral researcher
   * Wellcome Sanger Institute
-  * Supervisor: Prof. Nicole Soranzo
+  * Supervisor: Prof. Nicole Soranzo, Dr. Oliver Stegle (joint)
 
 * 2016-2020: PhD Fellow
   * EMBL-EBI & Cambridge University
