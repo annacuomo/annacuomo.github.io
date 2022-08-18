@@ -9,6 +9,6 @@ paperurl: 'https://www.embopress.org/doi/full/10.15252/msb.202110663'
 citation: 'Cuomo ASE*, Heinen T* et al. (2022). &quot;CellRegMap: A statistical framework for mapping context-specific regulatory variants using scRNA-seq.&quot; <i>Molecular Systems Biology</i>. 18:e10663'
 ---
 
-[Download paper here](http://annacuomo.github.io/files/Molecular Systems Biology - 2022 - Cuomo - CellRegMap  a statistical framework for mapping context‐specific regulatory.pdf)
+[Download paper here](http://annacuomo.github.io/files/CellRegMap_MSB_2022_Cuomo.pdf)
 
 Recommended citation: Cuomo ASE*, Heinen T* et al. (2022). "CellRegMap: A statistical framework for mapping context-specific regulatory variants using scRNA-seq." <i>Molecular Systems Biology</i>. 18:e10663.
