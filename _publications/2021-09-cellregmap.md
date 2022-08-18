@@ -9,6 +9,6 @@ paperurl: '[https://www.biorxiv.org/content/10.1101/2021.09.01.458524v1](https:/
 citation: 'Cuomo ASE*, Heinen T* et al. (2022). &quot;CellRegMap: A statistical framework for mapping context-specific regulatory variants using scRNA-seq.&quot; <i>Molecular Systems Biology</i>. 18:e10663'
 ---
 
-[Download paper here](http://annacuomo.github.io/files/https:www.biorxiv.org:content:10.1101:2021.09.01.458524v1.full.pdf)
+[Download paper here](http://annacuomo.github.io/files/Molecular Systems Biology - 2022 - Cuomo - CellRegMap  a statistical framework for mapping context‐specific regulatory.pdf)
 
 Recommended citation: Cuomo ASE*, Heinen T* et al. (2022). "CellRegMap: A statistical framework for mapping context-specific regulatory variants using scRNA-seq." <i>Molecular Systems Biology</i>. 18:e10663.
