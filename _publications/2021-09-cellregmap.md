@@ -11,4 +11,4 @@ citation: 'Cuomo ASE*, Heinen T* et al. (2022). &quot;CellRegMap: A statistical 
 
 [Download paper here](http://annacuomo.github.io/files/CellRegMap_MSB_2022_Cuomo.pdf)
 
-Recommended citation: Cuomo ASE*, Heinen T* et al. (2022). "CellRegMap: A statistical framework for mapping context-specific regulatory variants using scRNA-seq." <i>Molecular Systems Biology</i>. 18:e10663.
+Recommended citation: Cuomo ASE\*, Heinen T\* et al. (2022). "CellRegMap: A statistical framework for mapping context-specific regulatory variants using scRNA-seq." <i>Molecular Systems Biology</i>. 18:e10663.
