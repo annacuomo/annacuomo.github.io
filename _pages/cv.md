@@ -13,7 +13,7 @@ Education
 ======
 * B.S. in Mathematical Engineering, Politecnico di Milano, Milan, Italy 2014
 * M.S. in Computer Science (Bioinformatics), TU Delft, Delft, The Netherlands 2016
-* Ph.D in Statistical Genetics, Cambridge University, 2020
+* Ph.D in Statistical Genetics, The University of Cambridge, Cambridge, UK 2020
 
 Work experience
 ======
