@@ -18,15 +18,15 @@ Education
 Work experience
 ======
 * December 2021-present: Postdoctoral researcher
-  * Garvan Institute of Medical Research
+  * Garvan Institute of Medical Research, Sydney, Australia
   * Supervisor: Prof. Joseph Powell, Prof. Daniel MacArthur (joint)
 
 * 2020-2021: Postdoctoral researcher
-  * Wellcome Sanger Institute
+  * Wellcome Sanger Institute, Cambridge, UK
   * Supervisor: Prof. Nicole Soranzo, Dr. Oliver Stegle (joint)
 
 * 2016-2020: PhD Fellow
-  * EMBL-EBI & Cambridge University
+  * EMBL-EBI & Cambridge University, Cambridge, UK
   * Thesis: Using single-cell RNA-seq to assess the effect of common genetic variants on gene expression during development
   * Supervisor: Dr. Oliver Stegle, Dr. John Marioni (joint)
 
