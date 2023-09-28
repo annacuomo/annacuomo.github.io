@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 I am an [EMBO long-term Postdoctoral fellow](https://www.embo.org/funding/fellowships-grants-and-career-support/postdoctoral-fellowships/) at the Garvan Institute of Medical Research (in Sydney, Australia) in [Joseph Powell](https://www.garvan.org.au/people/jospow)’s and [Daniel MacArthur](https://macarthurlab.org)’s labs. 
-Previously, I completed postdoctoral training at the Wellcome Trust Sanger Institute in [Prof. Nicole Soranzo](https://www.sanger.ac.uk/person/soranzo-nicole/)’s group, and I obtained my PhD in Statistical Genetics at the University of Cambridge and the European Bioinformatics Institute, under the joint supervision of [Oliver Stegle](https://www.embl.org/groups/stegle/) and [John Marioni](https://www.ebi.ac.uk/about/people/john-marioni). 
+Previously, I completed postdoctoral training at the Wellcome Trust Sanger Institute in [Nicole Soranzo](https://www.sanger.ac.uk/external_person/soranzo-nicole/)’s group, and I obtained my PhD in Statistical Genetics at the University of Cambridge and the European Bioinformatics Institute, under the joint supervision of [Oliver Stegle](https://www.embl.org/groups/stegle/) and [John Marioni](https://www.ebi.ac.uk/about/people/john-marioni). 
 Before that, I obtained my Master’s in Computer Science, track Bioinformatics from the Delft University of Technology, The Netherlands, and Bachelor’s degree in Mathematical Engineering from the Politecnico di Milano, Italy. 
 
 My PhD and postdoc work is concerned with the development of integrative statistical models to link DNA variants to single cell expression profiles, to uncover molecular mechanisms that might help unravelling the genotype-phenotype map. 
