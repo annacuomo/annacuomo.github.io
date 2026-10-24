@@ -36,7 +36,7 @@ const talks = (await getCollection('talks')).map((t) => t.data).sort((a, b) => b
       <ul class="pub-list">
         {pubs.map((p) => (
           <li>
-            <a class="title" href={p.url}>{p.title}</a>
+            {p.review && <span class="tag tag-review">Review</span>}<a class="title" href={p.url}>{p.title}</a>
             <div class="meta"><span set:html={highlightMe(p.authors)} /> · <em>{p.venue}</em>, {p.year}{p.preprint && <> · <a class="accent-link" href={p.preprint}>Free preprint</a></>}</div>
           </li>
         ))}

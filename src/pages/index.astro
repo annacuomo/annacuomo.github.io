@@ -17,11 +17,15 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft))
     <div>
       <div class="eyebrow">{site.eyebrow}</div>
       <h1>{site.title}</h1>
-      <!-- TODO(Anna): replace with your up-to-date bio -->
       <p class="lead">
-        I'm a mathematician turned computational biologist, with experience in academia and industry.
-        I study how genetic variation shapes gene expression in individual cells, and how combining
-        natural variation with perturbation experiments can reveal mechanism and help find new drug targets.
+        I'm an Associate Principal Scientist at AstraZeneca's Centre for Genomics Research in London.
+        A mathematician turned computational biologist, I study how genetic variation shapes gene expression
+        in individual cells, and how combining natural variation with perturbation experiments can reveal
+        mechanism and help find new drug targets.
+      </p>
+      <p class="muted">
+        Previously an EMBO postdoctoral fellow at the Garvan Institute in Sydney and a postdoc at the Wellcome
+        Sanger Institute; PhD in Statistical Genetics from the University of Cambridge and EMBL-EBI.
       </p>
       <a class="btn btn-solid" href={url('/cv/')}>Read my CV</a>
       <a class="btn btn-outline" href={url('/publications/')}>Publications</a>

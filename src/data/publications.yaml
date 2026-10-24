@@ -2,7 +2,15 @@
 # featured: true  -> shown as a "Key publication" with summary and image
 # preprint: free preprint link, shown as "Free preprint" (handy when the journal version is paywalled)
 # image: path under public/, e.g. /images/pubs/tenk10k.png (optional; a coloured tile is used otherwise)
+# review: true  -> labelled "Review"
 # Your name is highlighted automatically in the author list.
+
+- id: castie-2026
+  title: "Scalable context-dependent single-cell eQTL mapping reveals disease-relevant regulatory variation beyond static models"
+  authors: "Liu YC, Cuomo ASE, Huang Y, Perez-Schindler J, Min B, Datta S, et al."
+  venue: "medRxiv (preprint)"
+  year: 2026
+  url: "https://www.medrxiv.org/content/10.64898/2026.08.13.26360300v2"
 
 - id: tenk10k-2025
   title: "Impact of rare and common genetic variation on cell type-specific gene expression in human blood"
@@ -13,11 +21,35 @@
   featured: true
   summary: "The first phase of TenK10K: matched whole-genome and single-cell RNA sequencing from 1,925 individuals, mapping common and rare variant effects across 28 immune cell types."
 
+- id: tandem-repeats-2025
+  title: "Polymorphic tandem repeats influence cell type-specific gene expression across the human immune landscape"
+  authors: "Tanudisastro HA, Cuomo ASE, Weisburd B, Welland M, et al."
+  venue: "bioRxiv (preprint)"
+  year: 2025
+  url: "https://pubmed.ncbi.nlm.nih.gov/40291654/"
+
+- id: hcm-sex-2025
+  title: "Sex-specific clinical and genetic factors associated with adverse outcomes in hypertrophic cardiomyopathy"
+  authors: "Butters A, Arnott C, Sweeting J, Claggett B, Cuomo AS, et al."
+  venue: "Circulation: Genomic and Precision Medicine"
+  year: 2025
+  url: "https://pubmed.ncbi.nlm.nih.gov/39851041/"
+
+- id: saige-qtl-2024
+  title: "Efficient and accurate mixed model association tool for single-cell eQTL analysis"
+  authors: "Zhou W, Cuomo ASE, Xue A, Kanai M, Chau G, Krishna C, et al."
+  venue: "medRxiv (preprint)"
+  year: 2024
+  url: "https://www.medrxiv.org/content/10.1101/2024.05.15.24307317v1"
+  featured: true
+  summary: "SAIGE-QTL: a scalable mixed-model tool that maps eQTLs directly from single cells, without collapsing to pseudobulk, and adds set-based tests for rare variants."
+
 - id: hps-review-2024
   title: "Integrating population genetics, stem cell biology and cellular genomics to study complex human diseases"
   authors: "Farbehi N, Neavin DR, Cuomo ASE, Studer L, MacArthur DG, Powell JE"
   venue: "Nature Genetics"
   year: 2024
+  review: true
   url: "https://www.nature.com/articles/s41588-024-01731-9"
 
 - id: nrg-review-2023
@@ -25,6 +57,7 @@
   authors: "Cuomo ASE, Nathan A, Raychaudhuri S, MacArthur DG, Powell JE"
   venue: "Nature Reviews Genetics"
   year: 2023
+  review: true
   url: "https://www.nature.com/articles/s41576-023-00599-5"
   featured: true
   summary: "A review of single-cell genetic studies so far, and the challenges and opportunities ahead for the field."
@@ -46,12 +79,15 @@
   year: 2021
   url: "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02407-x"
   preprint: "https://www.biorxiv.org/content/10.1101/2021.01.20.427401v1"
+  featured: true
+  summary: "A systematic comparison of normalisation, aggregation and testing choices for adapting bulk eQTL methods to single-cell data."
 
 - id: sc-integration-2021
   title: "Computational principles and challenges in single-cell data integration"
   authors: "Argelaguet R, Cuomo ASE, Stegle O, Marioni JC"
   venue: "Nature Biotechnology"
   year: 2021
+  review: true
   url: "https://www.nature.com/articles/s41587-021-00895-7"
 
 - id: neuroseq-2021

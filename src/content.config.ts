@@ -24,6 +24,7 @@ const publications = defineCollection({
     year: z.number(),
     url: z.string(),
     preprint: z.string().optional(),
+    review: z.boolean().default(false),
     featured: z.boolean().default(false),
     summary: z.string().optional(),
     image: z.string().optional(),
