@@ -4,10 +4,29 @@
   "eyebrow": "Cellular genomics · Human genetics · Drug discovery",
   "description": "Associate Principal Scientist at AstraZeneca's Centre for Genomic Research, London. Cellular genomics, human genetics and drug discovery.",
   "links": [
-    { "label": "Google Scholar", "url": "https://scholar.google.com/citations?user=Uu1L_mkAAAAJ" },
-    { "label": "GitHub", "url": "https://github.com/annacuomo" },
-    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/anna-cuomo-phd-442b33b3/" },
-    { "label": "X / Twitter", "url": "https://twitter.com/AnnaSECuomo" },
-    { "label": "ORCID", "url": "https://orcid.org/0000-0001-5168-6979" }
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=Uu1L_mkAAAAJ"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/annacuomo"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/anna-cuomo-phd-442b33b3/"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/annasecuomo.bsky.social"
+    },
+    {
+      "label": "X / Twitter",
+      "url": "https://twitter.com/AnnaSECuomo"
+    },
+    {
+      "label": "ORCID",
+      "url": "https://orcid.org/0000-0001-5168-6979"
+    }
   ]
 }
