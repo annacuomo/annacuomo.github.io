@@ -9,7 +9,7 @@
 
 - id: castie-2026
   title: "Scalable context-dependent single-cell eQTL mapping reveals disease-relevant regulatory variation beyond static models"
-  authors: "Liu YC, Cuomo ASE, Huang Y, Perez-Schindler J, Min B, Datta S, et al."
+  authors: "Liu YC*, Cuomo ASE*, Huang Y, Perez-Schindler J, Min B, Datta S, et al."
   venue: "medRxiv (preprint)"
   year: 2026
   topic: methods
@@ -63,7 +63,7 @@
 
 - id: saige-qtl-2024
   title: "Efficient and accurate mixed model association tool for single-cell eQTL analysis"
-  authors: "Zhou W, Cuomo ASE, Xue A, Kanai M, Chau G, Krishna C, et al."
+  authors: "Zhou W*, Cuomo ASE*, Xue A, Kanai M, Chau G, Krishna C, et al."
   venue: "medRxiv (preprint)"
   year: 2024
   topic: methods
