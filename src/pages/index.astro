@@ -30,7 +30,7 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft))
       <a class="btn btn-solid" href={url('/cv/')}>Read my CV</a>
       <a class="btn btn-outline" href={url('/publications/')}>Publications</a>
       <div class="bio-links">
-        {site.links.slice(0, 5).map((l) => <a class="plain-link" href={l.url}>{l.label}</a>)}
+        {site.links.slice(0, 5).map((l) => <a class="plain-link" href={l.url}>{l.short ? <><span class="long">{l.label}</span><span class="short">{l.short}</span></> : l.label}</a>)}
       </div>
     </div>
   </section>

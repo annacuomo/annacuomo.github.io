@@ -30,6 +30,8 @@
       url: "https://github.com/ZhouLabGenetics/CASTIE"
     - label: "Analysis code"
       url: "https://github.com/ZhouLabGenetics/CASTIE_analyses"
+    - label: "Website"
+      url: "https://yijia0802.github.io/CASTIE_doc/"
 
 - id: tenk10k-2025
   title: "Impact of rare and common genetic variation on cell type-specific gene expression in human blood"

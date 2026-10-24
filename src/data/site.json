@@ -6,7 +6,8 @@
   "links": [
     {
       "label": "Google Scholar",
-      "url": "https://scholar.google.com/citations?user=Uu1L_mkAAAAJ"
+      "url": "https://scholar.google.com/citations?user=Uu1L_mkAAAAJ",
+      "short": "Scholar"
     },
     {
       "label": "GitHub",
@@ -22,7 +23,8 @@
     },
     {
       "label": "X / Twitter",
-      "url": "https://twitter.com/AnnaSECuomo"
+      "url": "https://twitter.com/AnnaSECuomo",
+      "short": "X"
     },
     {
       "label": "ORCID",
