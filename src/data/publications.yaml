@@ -42,6 +42,13 @@
   image: /images/pubs/tenk10k.png
   summary: "The first phase of TenK10K: matched whole-genome and single-cell RNA sequencing from 1,925 individuals, mapping common and rare variant effects across 28 immune cell types."
   rank: 1
+  links:
+    - label: "Data"
+      url: "https://zenodo.org/records/18221260"
+    - label: "Analysis code"
+      url: "https://github.com/powellgenomicslab/tenk10k_phase1/tree/main"
+    - label: "Pipeline"
+      url: "https://github.com/populationgenomics/saige-tenk10k"
 
 - id: tandem-repeats-2025
   title: "Polymorphic tandem repeats influence cell type-specific gene expression across the human immune landscape"
