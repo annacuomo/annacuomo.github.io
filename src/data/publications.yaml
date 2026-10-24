@@ -119,6 +119,8 @@
   featured: true
   image: /images/pubs/saige-qtl.png
   summary: "SAIGE-QTL: a scalable mixed-model tool that maps eQTLs directly from single cells, without collapsing to pseudobulk, and adds set-based tests for rare variants."
+    - label: "Analysis code"
+      url: "https://github.com/annacuomo/SAIGE_QTL_analyses"
 
 - id: hps-review-2024
   title: "Integrating population genetics, stem cell biology and cellular genomics to study complex human diseases"
@@ -171,6 +173,9 @@
   featured: true
   image: /images/pubs/sc-eqtl-workflows.png
   summary: "A systematic comparison of normalisation, aggregation and testing choices for adapting bulk eQTL methods to single-cell data."
+  links:
+    - label: "Analysis code"
+      url: "https://github.com/single-cell-genetics/optimising_singlecell_eqtl_paper"
 
 - id: sc-integration-2021
   title: "Computational principles and challenges in single-cell data integration"
@@ -192,6 +197,8 @@
   links:
     - label: "Data"
       url: "https://zenodo.org/records/4651413"
+    - label: "Analysis code"
+      url: "https://github.com/single-cell-genetics/singlecell_neuroseq_paper"
 
 - id: covid-entry-2021
   title: "Single-cell meta-analysis of SARS-CoV-2 entry genes across tissues and demographics"
@@ -216,3 +223,5 @@
   links:
     - label: "Data"
       url: "https://zenodo.org/records/3625024"
+    - label: "Analysis code"
+      url: "https://github.com/single-cell-genetics/singlecell_endodiff_paper"
