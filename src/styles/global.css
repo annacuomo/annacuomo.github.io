@@ -74,6 +74,7 @@ p { margin: 0 0 1em; }
   .bio-links { font-size: 15px; gap: 2px 8px; }
   .bio-links .plain-link + .plain-link::before { margin-right: 8px; }
   .bio-links .long { display: none; }
+  .hero .eyebrow { white-space: nowrap; text-transform: none; letter-spacing: 0; font-size: min(14px, 3.2vw); }
 }
 @media (min-width: 601px) { .bio-links .short { display: none; } }
 
