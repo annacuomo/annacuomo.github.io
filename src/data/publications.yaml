@@ -136,6 +136,7 @@
       url: "https://limix.github.io/CellRegMap/"
   preprint: "https://www.biorxiv.org/content/10.1101/2021.09.01.458524v1"
   featured: true
+  image: /images/pubs/cellregmap.png
   summary: "A method to map context-specific eQTLs from single-cell data, without first grouping cells into discrete cell types."
 
 - id: sc-eqtl-workflows-2021
