@@ -1,0 +1,31 @@
+---
+import Base from '../layouts/Base.astro';
+import PubCard from '../components/PubCard.astro';
+import { getCollection } from 'astro:content';
+import { highlightMe } from '../lib/util';
+
+const pubs = (await getCollection('publications')).map((p) => p.data).sort((a, b) => b.year - a.year);
+const featured = pubs.filter((p) => p.featured);
+const others = pubs.filter((p) => !p.featured);
+---
+<Base title="Publications">
+  <section style="padding-top:24px">
+    <h1 style="margin-bottom:32px">Publications</h1>
+    <h2>Key publications</h2>
+    <div class="card-grid">
+      {featured.map((p, i) => <PubCard pub={p} i={i} />)}
+    </div>
+  </section>
+  <section>
+    <h2>Other publications</h2>
+    <ul class="pub-list">
+      {others.map((p) => (
+        <li>
+          <a class="title" href={p.url}>{p.title}</a>
+          <div class="meta"><span set:html={highlightMe(p.authors)} /> · <em>{p.venue}</em>, {p.year}{p.preprint && <> · <a class="accent-link" href={p.preprint}>Free preprint</a></>}</div>
+        </li>
+      ))}
+    </ul>
+    <p class="muted" style="margin-top:16px">* joint first authors. Full list on <a class="accent-link" href="https://scholar.google.com/citations?user=Uu1L_mkAAAAJ">Google Scholar</a>.</p>
+  </section>
+</Base>

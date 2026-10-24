@@ -1,0 +1,81 @@
+# Publications, newest first.
+# featured: true  -> shown as a "Key publication" with summary and image
+# preprint: free preprint link, shown as "Free preprint" (handy when the journal version is paywalled)
+# image: path under public/, e.g. /images/pubs/tenk10k.png (optional; a coloured tile is used otherwise)
+# Your name is highlighted automatically in the author list.
+
+- id: tenk10k-2025
+  title: "Impact of rare and common genetic variation on cell type-specific gene expression in human blood"
+  authors: "Cuomo ASE, Spenceley E, Tanudisastro HA, Bowen B, Henry A, et al."
+  venue: "medRxiv (preprint)"
+  year: 2025
+  url: "https://www.medrxiv.org/content/10.1101/2025.03.20.25324352v2"
+  featured: true
+  summary: "The first phase of TenK10K: matched whole-genome and single-cell RNA sequencing from 1,925 individuals, mapping common and rare variant effects across 28 immune cell types."
+
+- id: hps-review-2024
+  title: "Integrating population genetics, stem cell biology and cellular genomics to study complex human diseases"
+  authors: "Farbehi N, Neavin DR, Cuomo ASE, Studer L, MacArthur DG, Powell JE"
+  venue: "Nature Genetics"
+  year: 2024
+  url: "https://www.nature.com/articles/s41588-024-01731-9"
+
+- id: nrg-review-2023
+  title: "Single-cell genomics meets human genetics"
+  authors: "Cuomo ASE, Nathan A, Raychaudhuri S, MacArthur DG, Powell JE"
+  venue: "Nature Reviews Genetics"
+  year: 2023
+  url: "https://www.nature.com/articles/s41576-023-00599-5"
+  featured: true
+  summary: "A review of single-cell genetic studies so far, and the challenges and opportunities ahead for the field."
+
+- id: cellregmap-2022
+  title: "CellRegMap: a statistical framework for mapping context-specific regulatory variants using scRNA-seq"
+  authors: "Cuomo ASE*, Heinen T*, et al."
+  venue: "Molecular Systems Biology"
+  year: 2022
+  url: "https://www.embopress.org/doi/full/10.15252/msb.202110663"
+  preprint: "https://www.biorxiv.org/content/10.1101/2021.09.01.458524v1"
+  featured: true
+  summary: "A method to map context-specific eQTLs from single-cell data, without first grouping cells into discrete cell types."
+
+- id: sc-eqtl-workflows-2021
+  title: "Optimizing expression quantitative trait locus mapping workflows for single-cell studies"
+  authors: "Cuomo ASE*, Alvari G*, Azodi CB*, et al."
+  venue: "Genome Biology"
+  year: 2021
+  url: "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02407-x"
+  preprint: "https://www.biorxiv.org/content/10.1101/2021.01.20.427401v1"
+
+- id: sc-integration-2021
+  title: "Computational principles and challenges in single-cell data integration"
+  authors: "Argelaguet R, Cuomo ASE, Stegle O, Marioni JC"
+  venue: "Nature Biotechnology"
+  year: 2021
+  url: "https://www.nature.com/articles/s41587-021-00895-7"
+
+- id: neuroseq-2021
+  title: "Population-scale single-cell RNA-seq profiling across dopaminergic neuron differentiation"
+  authors: "Jerber J*, Seaton DD*, Cuomo ASE*, et al."
+  venue: "Nature Genetics"
+  year: 2021
+  url: "https://www.nature.com/articles/s41588-021-00801-6"
+  preprint: "https://www.biorxiv.org/content/10.1101/2020.05.21.103820v1"
+
+- id: covid-entry-2021
+  title: "Single-cell meta-analysis of SARS-CoV-2 entry genes across tissues and demographics"
+  authors: "Muus C, et al."
+  venue: "Nature Medicine"
+  year: 2021
+  url: "https://www.nature.com/articles/s41591-020-01227-z"
+  preprint: "https://www.biorxiv.org/content/10.1101/2020.04.19.049254v1"
+
+- id: endodiff-2020
+  title: "Single-cell RNA-sequencing of differentiating iPS cells reveals dynamic genetic effects on gene expression"
+  authors: "Cuomo ASE*, Seaton DD*, McCarthy DJ*, et al."
+  venue: "Nature Communications"
+  year: 2020
+  url: "https://www.nature.com/articles/s41467-020-14457-z"
+  preprint: "https://www.biorxiv.org/content/10.1101/630996v1"
+  featured: true
+  summary: "Tracking how common genetic variants affect gene expression as iPS cells differentiate towards endoderm, at single-cell resolution."

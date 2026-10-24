@@ -1,0 +1,64 @@
+---
+import Base from '../layouts/Base.astro';
+import PubCard from '../components/PubCard.astro';
+import site from '../data/site.json';
+import { getCollection } from 'astro:content';
+import { url, formatDate } from '../lib/util';
+
+const pubs = (await getCollection('publications')).map((p) => p.data).sort((a, b) => b.year - a.year);
+const featured = pubs.filter((p) => p.featured).slice(0, 3);
+const posts = (await getCollection('blog', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .slice(0, 3);
+---
+<Base>
+  <section class="hero">
+    <img class="hero-photo" src={url('/images/profile.jpg')} alt="Anna Cuomo" />
+    <div>
+      <div class="eyebrow">{site.eyebrow}</div>
+      <h1>{site.title}</h1>
+      <!-- TODO(Anna): replace with your up-to-date bio -->
+      <p class="lead">
+        I'm a mathematician turned computational biologist, with experience in academia and industry.
+        I study how genetic variation shapes gene expression in individual cells, and how combining
+        natural variation with perturbation experiments can reveal mechanism and help find new drug targets.
+      </p>
+      <a class="btn btn-solid" href={url('/cv/')}>Read my CV</a>
+      <a class="btn btn-outline" href={url('/publications/')}>Publications</a>
+      <div class="link-row">
+        {site.links.slice(0, 4).map((l) => <a class="accent-link" href={l.url}>{l.label}</a>)}
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Research interests</h2>
+    <img
+      src={url('/images/infographic.png')}
+      alt="Natural variation and perturbation experiments, both read out in single cells, combine to reveal mechanism, map regulatory networks and prioritise drug targets."
+    />
+  </section>
+
+  <section>
+    <h2>Key publications</h2>
+    <div class="card-grid">
+      {featured.map((p, i) => <PubCard pub={p} i={i} />)}
+    </div>
+    <p style="margin-top:24px"><a class="accent-link" href={url('/publications/')}>All publications</a></p>
+  </section>
+
+  {posts.length > 0 && (
+    <section>
+      <h2>From the blog</h2>
+      {posts.map((p) => (
+        <div class="post-row">
+          <span class="tag">{p.data.tag}</span>
+          <div>
+            <h3><a href={url(`/blog/${p.id}/`)}>{p.data.title}</a></h3>
+            <p class="muted" style="margin:4px 0 0">{formatDate(p.data.date)}{p.data.summary && <> · {p.data.summary}</>}</p>
+          </div>
+        </div>
+      ))}
+    </section>
+  )}
+</Base>

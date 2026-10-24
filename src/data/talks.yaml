@@ -1,0 +1,33 @@
+# Talks, any order (sorted by date on the site).
+
+- id: bog-2022
+  title: "CSHL Biology of Genomes 2022"
+  type: "Talk"
+  date: 2022-05-13
+  location: "Cold Spring Harbor Laboratory, New York, USA"
+  description: "Introducing CellRegMap for context-specific genetic regulation in single-cell data, plus a first look at work on the OneK1K cohort."
+  link: "https://www.biorxiv.org/content/10.1101/2021.09.01.458524v1#video"
+
+- id: itn-tutorial-2018
+  title: "Tutorial on single-cell RNA-seq analysis"
+  type: "Tutorial"
+  date: 2018-09-12
+  location: "Warsaw, Poland"
+  description: "With Ximena Ibarra-Soria at the ITN Contra event. Six-part video series."
+  link: "https://www.youtube.com/watch?v=U3bR2zsWxks&list=PLAFFlrzSa6m9Qs8waPFFn2EYUtwMt5eE_"
+
+- id: itn-talk-2018
+  title: "ITN Contra Talks"
+  type: "Talk"
+  date: 2018-09-11
+  location: "Warsaw, Poland"
+  description: "Genetic analysis of differentiating iPS cells using scRNA-seq data."
+  link: "https://www.youtube.com/watch?v=KJL6CONjTKk"
+
+- id: cshl-srge-2018
+  title: "CSHL Systems Regulation of Gene Expression"
+  type: "Talk"
+  date: 2018-03-22
+  location: "Cold Spring Harbor Laboratory, New York, USA"
+  description: "Genetic analysis of differentiating iPS cells using scRNA-seq data."
+  link: "https://www.youtube.com/watch?v=va3ANDtfPHY"

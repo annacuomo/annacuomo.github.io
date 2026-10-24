@@ -1,0 +1,38 @@
+# CV sections, shown in "order". Publications and talks are added automatically
+# from publications.yaml and talks.yaml.
+# TODO(Anna): add your current industry role(s) at the top of Experience.
+
+- id: experience
+  order: 1
+  heading: "Experience"
+  items:
+    - title: "[Your current role]"
+      where: "[Company], London, UK"
+      when: "[Start] – present"
+    - title: "EMBO Postdoctoral Fellow"
+      where: "Garvan Institute of Medical Research, Sydney, Australia"
+      when: "2021 – [end]"
+      details:
+        - "Labs of Prof. Joseph Powell and Prof. Daniel MacArthur"
+    - title: "Postdoctoral researcher"
+      where: "Wellcome Sanger Institute, Cambridge, UK"
+      when: "2020 – 2021"
+      details:
+        - "Group of Prof. Nicole Soranzo, with Dr. Oliver Stegle"
+
+- id: education
+  order: 2
+  heading: "Education"
+  items:
+    - title: "PhD in Statistical Genetics"
+      where: "University of Cambridge & EMBL-EBI, Cambridge, UK"
+      when: "2016 – 2020"
+      details:
+        - "Thesis: Using single-cell RNA-seq to assess the effect of common genetic variants on gene expression during development"
+        - "Supervised by Dr. Oliver Stegle and Dr. John Marioni"
+    - title: "MSc in Computer Science (Bioinformatics)"
+      where: "Delft University of Technology, The Netherlands"
+      when: "2016"
+    - title: "BSc in Mathematical Engineering"
+      where: "Politecnico di Milano, Italy"
+      when: "2014"

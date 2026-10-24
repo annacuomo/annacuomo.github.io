@@ -1,0 +1,60 @@
+---
+import Base from '../layouts/Base.astro';
+import site from '../data/site.json';
+import { getCollection } from 'astro:content';
+import { highlightMe } from '../lib/util';
+
+const sections = (await getCollection('cv')).map((s) => s.data).sort((a, b) => a.order - b.order);
+const pubs = (await getCollection('publications')).map((p) => p.data).sort((a, b) => b.year - a.year);
+const talks = (await getCollection('talks')).map((t) => t.data).sort((a, b) => b.date.valueOf() - a.date.valueOf());
+---
+<Base title="CV">
+  <section style="padding-top:24px">
+    <h1>Curriculum Vitae</h1>
+    <p class="link-row" style="margin:16px 0 40px">
+      {site.links.map((l) => <a class="accent-link" href={l.url}>{l.label}</a>)}
+    </p>
+
+    {sections.map((s) => (
+      <div class="cv-section">
+        <h2>{s.heading}</h2>
+        {s.items.map((it) => (
+          <div class="cv-item">
+            <div class="cv-when">{it.when}</div>
+            <div>
+              <h3>{it.title}</h3>
+              {it.where && <div class="muted">{it.where}</div>}
+              {it.details && <ul>{it.details.map((d) => <li>{d}</li>)}</ul>}
+            </div>
+          </div>
+        ))}
+      </div>
+    ))}
+
+    <div class="cv-section">
+      <h2>Publications</h2>
+      <ul class="pub-list">
+        {pubs.map((p) => (
+          <li>
+            <a class="title" href={p.url}>{p.title}</a>
+            <div class="meta"><span set:html={highlightMe(p.authors)} /> · <em>{p.venue}</em>, {p.year}{p.preprint && <> · <a class="accent-link" href={p.preprint}>Free preprint</a></>}</div>
+          </li>
+        ))}
+      </ul>
+    </div>
+
+    <div class="cv-section">
+      <h2>Selected talks</h2>
+      {talks.map((t) => (
+        <div class="cv-item">
+          <div class="cv-when">{t.date.getFullYear()}</div>
+          <div>
+            <h3>{t.link ? <a href={t.link} style="color:inherit">{t.title}</a> : t.title}</h3>
+            <div class="muted">{t.type} · {t.location}</div>
+            {t.description && <p style="margin:6px 0 0;font-size:15px">{t.description}</p>}
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+</Base>

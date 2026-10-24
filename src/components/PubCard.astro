@@ -1,0 +1,16 @@
+---
+// A "key publication" card: image (or coloured tile), title, venue, summary.
+import { url } from '../lib/util';
+interface Props { pub: { title: string; venue: string; year: number; url: string; preprint?: string; summary?: string; image?: string }; i: number }
+const { pub, i } = Astro.props;
+---
+<article class="card">
+  <a href={pub.url} aria-hidden="true" tabindex="-1">
+    {pub.image
+      ? <img src={url(pub.image)} alt="" loading="lazy" />
+      : <div class={`tile tile-${i % 3}`}>{pub.venue}</div>}
+  </a>
+  <h3><a href={pub.url}>{pub.title}</a></h3>
+  <p class="muted">{pub.venue}, {pub.year}{pub.summary && <> · {pub.summary}</>}</p>
+  {pub.preprint && <p class="muted" style="margin-top:-6px"><a class="accent-link" href={pub.preprint}>Free preprint</a></p>}
+</article>
