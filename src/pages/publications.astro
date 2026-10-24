@@ -4,7 +4,7 @@ import PubCard from '../components/PubCard.astro';
 import { getCollection } from 'astro:content';
 import { highlightMe } from '../lib/util';
 
-const pubs = (await getCollection('publications')).map((p) => p.data).sort((a, b) => b.year - a.year);
+const pubs = (await getCollection('publications')).map((p) => p.data).sort((a, b) => b.year - a.year || a.rank - b.rank);
 const featured = pubs.filter((p) => p.featured);
 const others = pubs.filter((p) => !p.featured);
 ---

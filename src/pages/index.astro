@@ -5,7 +5,7 @@ import site from '../data/site.json';
 import { getCollection } from 'astro:content';
 import { url, formatDate } from '../lib/util';
 
-const pubs = (await getCollection('publications')).map((p) => p.data).sort((a, b) => b.year - a.year);
+const pubs = (await getCollection('publications')).map((p) => p.data).sort((a, b) => b.year - a.year || a.rank - b.rank);
 const featured = pubs.filter((p) => p.featured).slice(0, 3);
 const posts = (await getCollection('blog', ({ data }) => !data.draft))
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())

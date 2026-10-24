@@ -5,7 +5,7 @@ import { getCollection } from 'astro:content';
 import { highlightMe, url } from '../lib/util';
 
 const topics = (await getCollection('topics')).sort((a, b) => a.data.order - b.data.order);
-const pubs = (await getCollection('publications')).map((p) => p.data).sort((a, b) => b.year - a.year);
+const pubs = (await getCollection('publications')).map((p) => p.data).sort((a, b) => b.year - a.year || a.rank - b.rank);
 ---
 <Base title="Research">
   <section style="padding-top:24px">

@@ -26,6 +26,7 @@ const publications = defineCollection({
     preprint: z.string().optional(),
     review: z.boolean().default(false),
     topic: z.string().optional(),
+    rank: z.number().default(99),
     featured: z.boolean().default(false),
     summary: z.string().optional(),
     image: z.string().optional(),
