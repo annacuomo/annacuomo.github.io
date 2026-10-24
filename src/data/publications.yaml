@@ -18,7 +18,6 @@
 # review: true  -> labelled "Review"
 # Authors: * = joint first, # = corresponding.
 # Your name is highlighted automatically in the author list.
-
 - id: castie-2026
   title: "Scalable context-dependent single-cell eQTL mapping reveals disease-relevant regulatory variation beyond static models"
   authors: "Liu YC*, Cuomo ASE*, Huang Y, Perez-Schindler J, Min B, Datta S, et al."
@@ -116,11 +115,11 @@
   links:
     - label: "Code"
       url: "https://github.com/weizhou0/qtl"
+    - label: "Analysis code"
+      url: "https://github.com/annacuomo/SAIGE_QTL_analyses"
   featured: true
   image: /images/pubs/saige-qtl.png
   summary: "SAIGE-QTL: a scalable mixed-model tool that maps eQTLs directly from single cells, without collapsing to pseudobulk, and adds set-based tests for rare variants."
-    - label: "Analysis code"
-      url: "https://github.com/annacuomo/SAIGE_QTL_analyses"
 
 - id: hps-review-2024
   title: "Integrating population genetics, stem cell biology and cellular genomics to study complex human diseases"
