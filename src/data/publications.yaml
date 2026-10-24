@@ -101,7 +101,7 @@
 
 - id: nrg-review-2023
   title: "Single-cell genomics meets human genetics"
-  authors: "Cuomo ASE, Nathan A, Raychaudhuri S, MacArthur DG, Powell JE"
+  authors: "Cuomo ASE#, Nathan A, Raychaudhuri S, MacArthur DG, Powell JE#"
   venue: "Nature Reviews Genetics"
   year: 2023
   review: true
@@ -112,7 +112,7 @@
 
 - id: cellregmap-2022
   title: "CellRegMap: a statistical framework for mapping context-specific regulatory variants using scRNA-seq"
-  authors: "Cuomo ASE*, Heinen T*, et al."
+  authors: "Cuomo ASE*#, Heinen T*, Vagiaki D, Horta D, Marioni JC, Stegle O#"
   venue: "Molecular Systems Biology"
   year: 2022
   topic: methods
@@ -128,7 +128,7 @@
 
 - id: sc-eqtl-workflows-2021
   title: "Optimizing expression quantitative trait locus mapping workflows for single-cell studies"
-  authors: "Cuomo ASE*, Alvari G*, Azodi CB*, et al."
+  authors: "Cuomo ASE*#, Alvari G*, Azodi CB*, single-cell eQTLGen consortium, McCarthy DJ#, Bonder MJ#"
   venue: "Genome Biology"
   year: 2021
   topic: methods
