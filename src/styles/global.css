@@ -77,7 +77,7 @@ section { padding: 0 0 64px; }
 /* Home hero */
 .hero { display: grid; gap: 40px; align-items: center; padding: 32px 0 64px; }
 @media (min-width: 760px) { .hero { grid-template-columns: .8fr 1.2fr; gap: 56px; } }
-.hero-photo { border-radius: var(--radius); width: 100%; aspect-ratio: 1/1; object-fit: cover; object-position: top; background: var(--plum); }
+.hero-photo { width: 100%; max-width: 340px; margin: 0 auto; aspect-ratio: 1/1; object-fit: cover; object-position: top; border-radius: 50%; border: 5px solid var(--teal); padding: 6px; background: var(--bg); }
 .hero h1 { margin: 12px 0 18px; }
 .hero .lead { font-size: 18px; max-width: 560px; }
 .link-row { display: flex; flex-wrap: wrap; gap: 6px 20px; margin-top: 8px; font-size: 15px; }
@@ -87,8 +87,10 @@ section { padding: 0 0 64px; }
 @media (min-width: 760px) { .card-grid { grid-template-columns: repeat(3, 1fr); } }
 .card img, .card .tile { width: 100%; height: 170px; border-radius: var(--radius); }
 .card img { object-fit: contain; background: var(--bg); }  /* never crop figures */
-.card .mat { padding: 3px; border-radius: 7px; background: var(--c); }
+.card .mat { border: 3px solid var(--c); border-radius: 7px; background: var(--bg); overflow: hidden; }
 .card .mat img { height: 164px; }
+.card .mat.padded { padding: 14px; }
+.card .mat.padded img { height: 136px; }
 .tile { display: flex; align-items: flex-end; padding: 14px; color: #fff; font-weight: 600; font-size: 14px; }
 .tile-0 { background: var(--teal); }
 .tile-1 { background: var(--plum); }
@@ -106,9 +108,9 @@ section { padding: 0 0 64px; }
 .pub-list .meta { font-size: 15px; opacity: .8; }
 
 /* Tags */
-.tag { display: inline-block; background: var(--mustard); color: var(--ink); padding: 3px 12px; border-radius: var(--radius); font-size: 13px; font-weight: 600; white-space: nowrap; }
+.tag { font-family: var(--font-body); display: inline-block; background: var(--mustard); color: var(--ink); padding: 3px 12px; border-radius: var(--radius); font-size: 13px; font-weight: 600; white-space: nowrap; }
 
-.tag-review { background: var(--plum); color: #fff; margin-right: 8px; vertical-align: 2px; font-size: 12px; padding: 2px 10px; }
+.tag-review { background: var(--plum); color: #fff; margin-right: 8px; vertical-align: 3px; font-size: 12px; font-weight: 600; line-height: 1.4; padding: 2px 10px; }
 
 /* Link chips under papers */
 .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }

@@ -7,7 +7,7 @@
   color: teal
   order: 1
   title: "TenK10K: genetics of immune cells at scale"
-  blurb: "Matched whole-genome, single-cell RNA sequencing and single-cell ATAC sequencing from nearly two thousands of individuals, mapping how common, rare and repeat variants shape gene expression and chromatin accessibility across immune cell types."
+  blurb: "Matched whole-genome, single-cell RNA sequencing and single-cell ATAC sequencing from nearly 2,000 individuals, mapping how common, rare and repeat variants shape gene expression and chromatin accessibility across immune cell types."
 
 - id: methods
   color: plum

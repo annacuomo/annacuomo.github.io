@@ -3,7 +3,7 @@
 import { url, highlightMe } from '../lib/util';
 import PaperLinks from './PaperLinks.astro';
 import { getCollection } from 'astro:content';
-interface Props { pub: { title: string; authors: string; venue: string; year: number; url: string; preprint?: string; review?: boolean; links?: { label: string; url: string }[]; topic?: string; summary?: string; image?: string }; i: number }
+interface Props { pub: { title: string; authors: string; venue: string; year: number; url: string; preprint?: string; review?: boolean; links?: { label: string; url: string }[]; topic?: string; padded?: boolean; summary?: string; image?: string }; i: number }
 const { pub, i } = Astro.props;
 // The frame around the figure takes the colour of the paper's research topic (see topics.yaml).
 const topics = await getCollection('topics');
@@ -12,11 +12,10 @@ const color = topics.find((t) => t.id === pub.topic)?.data.color ?? 'teal';
 <article class="card">
   <a href={pub.url} aria-hidden="true" tabindex="-1">
     {pub.image
-      ? <div class={`mat c-${color}`}><img src={url(pub.image)} alt="" loading="lazy" /></div>
+      ? <div class={`mat c-${color}${pub.padded ? ' padded' : ''}`}><img src={url(pub.image)} alt="" loading="lazy" /></div>
       : <div class={`tile tile-${i % 3}`}>{pub.venue}</div>}
   </a>
-  {pub.review && <span class="tag tag-review" style="margin-top:14px">Review</span>}
-  <h3><a href={pub.url}>{pub.title}</a></h3>
+  <h3>{pub.review && <span class="tag tag-review">Review</span>}<a href={pub.url}>{pub.title}</a></h3>
   <p class="authors" set:html={highlightMe(pub.authors)} />
   <p class="muted"><em>{pub.venue}</em>, {pub.year}{pub.summary && <> · {pub.summary}</>}</p>
   <PaperLinks preprint={pub.preprint} links={pub.links} />
