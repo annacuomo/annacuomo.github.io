@@ -4,7 +4,8 @@
 # padded: false -> removes the white space between a figure and its coloured frame
 # image: path under public/, e.g. /images/pubs/tenk10k.png (optional; a coloured tile is used otherwise)
 # topic: which group it appears under on the Research page (see topics.yaml)
-# links: extra links shown as coloured chips under the paper. The colour follows the label:
+# links: extra links shown as coloured chips under the paper (any order: the site sorts them).
+#   The colour follows the label:
 #   "Code" (teal) · "Analysis code" / "Pipeline" (light teal) · "Data" (plum) · "Website" / "Docs" / "Browser" (plum outline)
 #   e.g.
 #   links:

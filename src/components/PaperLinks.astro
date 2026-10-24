@@ -4,7 +4,11 @@
 import { linkKind } from '../lib/util';
 interface Props { preprint?: string; links?: { label: string; url: string }[] }
 const { preprint, links = [] } = Astro.props;
-const all = [...(preprint ? [{ label: 'Free preprint', url: preprint }] : []), ...links];
+// Always shown in the same order, whatever order they're written in: preprint, code, website, analysis code, data.
+const order = ['preprint', 'code', 'web', 'analysis', 'data'];
+const all = [...(preprint ? [{ label: 'Free preprint', url: preprint }] : []), ...links]
+  .map((l, i) => ({ ...l, i }))
+  .sort((a, b) => order.indexOf(linkKind(a.label)) - order.indexOf(linkKind(b.label)) || a.i - b.i);
 ---
 {all.length > 0 && (
   <div class="chips">
