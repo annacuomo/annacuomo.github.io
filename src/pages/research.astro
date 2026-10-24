@@ -14,14 +14,11 @@ const pubs = (await getCollection('publications')).map((p) => p.data).sort((a, b
       My work sits where cellular genomics, human genetics and drug discovery meet. Papers are grouped by theme below;
       see <a class="accent-link" href={url('/publications/')}>Publications</a> for the full list by year.
     </p>
-    {topics.filter((t) => pubs.some((p) => p.topic === t.id)).map((t, i) => {
+    {topics.filter((t) => pubs.some((p) => p.topic === t.id)).map((t) => {
       const list = pubs.filter((p) => p.topic === t.id);
       return (
         <div class={`topic c-${t.data.color}`}>
-          <div class="topic-head">
-            <span class="topic-num">{String(i + 1).padStart(2, '0')}</span>
-            <h2>{t.data.title}</h2>
-          </div>
+          <h2>{t.data.title}</h2>
           {t.data.blurb && <p class="blurb">{t.data.blurb}</p>}
           {t.data.image && <img src={url(t.data.image)} alt={`Overview of ${t.data.title}`} />}
           <ul class="pub-list">

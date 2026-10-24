@@ -136,9 +136,7 @@ section { padding: 0 0 64px; }
 /* Research topics */
 .topic { border-radius: 8px; padding: 32px 24px; margin-bottom: 32px; background: color-mix(in srgb, var(--c) 9%, var(--bg)); }
 @media (min-width: 760px) { .topic { padding: 40px; } }
-.topic-head { display: flex; align-items: baseline; gap: 16px; margin-bottom: 12px; }
-.topic-num { font: 700 44px/1 var(--font-head); color: var(--c-text); }
-.topic h2 { margin: 0; }
+.topic h2 { margin: 0 0 12px; color: var(--c-text); }
 .topic .blurb { max-width: 720px; margin: 0 0 20px; }
 .topic img { border-radius: var(--radius); margin: 8px 0 24px; background: var(--bg); }
 .topic .pub-list li { border-top-color: color-mix(in srgb, var(--c) 30%, transparent); }

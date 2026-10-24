@@ -23,6 +23,9 @@
   year: 2026
   topic: methods
   url: "https://www.medrxiv.org/content/10.64898/2026.08.13.26360300v2"
+  links:
+    - label: "Code"
+      url: "https://github.com/ZhouLabGenetics/CASTIE"
 
 - id: tenk10k-2025
   title: "Impact of rare and common genetic variation on cell type-specific gene expression in human blood"
@@ -62,13 +65,14 @@
   url: "https://www.medrxiv.org/content/10.1101/2025.08.28.25334614v4"
   rank: 4
 
-- id: variability-qtl-2024
-  title: "Genetic variants associated with cell-type-specific intra-individual gene expression variability reveal new mechanisms of genome regulation"
-  authors: "Xue A, …, Cuomo ASE, et al."
-  venue: "bioRxiv (preprint)"
-  year: 2024
+- id: variability-qtl-2026
+  title: "Genetic variants associated with cell-type-specific intra-individual gene expression variability reveal mechanisms of genome regulation"
+  authors: "Xue A, Yazar S, Alquicira-Hernández J, Cuomo ASE, Senabouth A, Gordon G, et al."
+  venue: "Nature Communications"
+  year: 2026
   topic: collaborations
-  url: "https://www.biorxiv.org/content/10.1101/2024.05.05.592598v1"
+  url: "https://www.nature.com/articles/s41467-026-77453-9"
+  preprint: "https://www.biorxiv.org/content/10.1101/2024.05.05.592598v1"
 
 - id: hcm-sex-2025
   title: "Sex-specific clinical and genetic factors associated with adverse outcomes in hypertrophic cardiomyopathy"
