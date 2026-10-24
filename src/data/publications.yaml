@@ -24,6 +24,22 @@
   featured: true
   summary: "The first phase of TenK10K: matched whole-genome and single-cell RNA sequencing from 1,925 individuals, mapping common and rare variant effects across 28 immune cell types."
 
+- id: chromatin-qtl-2025
+  title: "Genetic regulation of cell type-specific chromatin accessibility shapes immune function and disease risk"
+  authors: "Xue A, Fan J, Dong OA, Huang HL, Chen L, Allen PC, …, Cuomo ASE, et al."
+  venue: "medRxiv (preprint)"
+  year: 2025
+  topic: tenk10k
+  url: "https://www.medrxiv.org/content/10.1101/2025.08.27.25334533v2"
+
+- id: effector-genes-2025
+  title: "Single-cell genetics identifies cell-type-specific effector genes across complex traits and diseases"
+  authors: "Henry A, Senabouth A, Tyebally R, Bowen B, Allen PC, Spenceley E, …, Cuomo ASE, et al."
+  venue: "medRxiv (preprint)"
+  year: 2025
+  topic: tenk10k
+  url: "https://www.medrxiv.org/content/10.1101/2025.08.28.25334614v4"
+
 - id: tandem-repeats-2025
   title: "Polymorphic tandem repeats influence cell type-specific gene expression across the human immune landscape"
   authors: "Tanudisastro HA, Cuomo ASE, Weisburd B, Welland M, et al."

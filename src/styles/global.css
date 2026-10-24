@@ -91,6 +91,7 @@ section { padding: 0 0 64px; }
 .tile-2 { background: var(--teal-light); color: var(--ink); }
 .card h3 { margin: 14px 0 6px; }
 .card h3 a { color: var(--ink); text-decoration: none; }
+.card .authors { font-size: 14px; margin: 0 0 6px; }
 .card h3 a:hover { color: var(--teal); }
 
 /* Lists of publications / talks */
