@@ -31,5 +31,6 @@ const pubs = (await getCollection('publications')).map((p) => p.data).sort((a, b
         </div>
       );
     })}
+    <p class="muted">* joint first authors · # corresponding authors</p>
   </section>
 </Base>

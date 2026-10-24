@@ -13,6 +13,7 @@
 #       url: "https://..."
 # rank: optional tie-breaker within a year (1 comes first)
 # review: true  -> labelled "Review"
+# Authors: * = joint first, # = corresponding.
 # Your name is highlighted automatically in the author list.
 
 - id: castie-2026
@@ -92,7 +93,7 @@
 
 - id: hps-review-2024
   title: "Integrating population genetics, stem cell biology and cellular genomics to study complex human diseases"
-  authors: "Farbehi N*, Neavin DR*, Cuomo ASE, Studer L, MacArthur DG, Powell JE"
+  authors: "Farbehi N*, Neavin DR*, Cuomo ASE, Studer L, MacArthur DG, Powell JE#"
   venue: "Nature Genetics"
   year: 2024
   review: true
@@ -139,7 +140,7 @@
 
 - id: sc-integration-2021
   title: "Computational principles and challenges in single-cell data integration"
-  authors: "Argelaguet R, Cuomo ASE, Stegle O, Marioni JC"
+  authors: "Argelaguet R#, Cuomo ASE#, Stegle O#, Marioni JC#"
   venue: "Nature Biotechnology"
   year: 2021
   review: true

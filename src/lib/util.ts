@@ -8,7 +8,7 @@ export function url(path: string): string {
 
 // Wrap my name in <strong> inside an author list.
 export function highlightMe(authors: string): string {
-  return authors.replace(/(Cuomo ASE?\*?)(?=[,\s]|$)/g, '<strong>$1</strong>');
+  return authors.replace(/(Cuomo ASE?[*#]*)(?=[,\s]|$)/g, '<strong>$1</strong>');
 }
 
 export function formatDate(d: Date): string {
