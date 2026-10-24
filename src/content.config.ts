@@ -39,10 +39,10 @@ const talks = defineCollection({
   schema: z.object({
     title: z.string(),
     type: z.string().default('Talk'),
-    date: z.coerce.date(),
+    year: z.number(),
     location: z.string(),
-    description: z.string().optional(),
-    link: z.string().optional(),
+    video: z.string().optional(),
+    slides: z.string().optional(),
   }),
 });
 
@@ -54,6 +54,7 @@ const cv = defineCollection({
     items: z.array(
       z.object({
         title: z.string(),
+        link: z.string().optional(),
         where: z.string().optional(),
         when: z.string().optional(),
         details: z.array(z.string()).optional(),

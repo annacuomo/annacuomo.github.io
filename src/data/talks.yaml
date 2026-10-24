@@ -1,33 +1,92 @@
-# Talks, any order (sorted by date on the site).
+# Talks, newest first. type: "Invited", "Oral", "Tutorial"...
+# Optional: video (link to a recording), slides (link or file path, e.g. /slides/ashg-2024.pdf)
 
+- id: festival-genomics-2026
+  title: "Festival of Genomics"
+  type: "Invited"
+  year: 2026
+  location: "London, UK"
+- id: igvf-2025
+  title: "NIH IGVF Statistical Genetics meeting"
+  type: "Invited"
+  year: 2025
+  location: "UCLA (virtual)"
+- id: ashg-2024
+  title: "American Society of Human Genetics (ASHG) Annual Meeting"
+  type: "Oral"
+  year: 2024
+  location: "Denver, Colorado, USA"
+- id: wimsig-2024
+  title: "Women in Mathematics Special Interest Group (WIMSIG)"
+  type: "Invited"
+  year: 2024
+  location: "University of Sydney, Australia"
+- id: mbsj-2023
+  title: "46th Annual Meeting of the Molecular Biology Society of Japan"
+  type: "Invited"
+  year: 2023
+  location: "Japan"
+- id: sbrs-2023
+  title: "Sydney Bioinformatics Research Symposium"
+  type: "Invited"
+  year: 2023
+  location: "University of New South Wales, Australia"
+- id: usyd-statbio-2023
+  title: "Statistical Bioinformatics Seminar"
+  type: "Invited"
+  year: 2023
+  location: "University of Sydney, Australia"
+- id: oz-single-cells-2022
+  title: "Oz Single Cells"
+  type: "Oral"
+  year: 2022
+  location: "Gold Coast, Australia"
 - id: bog-2022
-  title: "CSHL Biology of Genomes 2022"
-  type: "Talk"
-  date: 2022-05-13
+  title: "Biology of Genomes"
+  type: "Oral"
+  year: 2022
   location: "Cold Spring Harbor Laboratory, New York, USA"
-  description: "Introducing CellRegMap for context-specific genetic regulation in single-cell data, plus a first look at work on the OneK1K cohort."
-  link: "https://www.biorxiv.org/content/10.1101/2021.09.01.458524v1#video"
-
-- id: itn-tutorial-2018
-  title: "Tutorial on single-cell RNA-seq analysis"
+  video: "https://www.biorxiv.org/content/10.1101/2021.09.01.458524v1#video"
+- id: bamc-2022
+  title: "British Applied Mathematics Colloquium: minisymposium on mathematical techniques for single-cell biology"
+  type: "Invited"
+  year: 2022
+  location: "Hybrid"
+- id: imperial-2020
+  title: "Neurogenomics Seminar"
+  type: "Invited"
+  year: 2020
+  location: "Imperial College London (virtual)"
+- id: masamb-2019
+  title: "Mathematical and Statistical Aspects of Molecular Biology (MASAMB)"
+  type: "Oral"
+  year: 2019
+  location: "Cambridge, UK"
+- id: contra-2018
+  title: "CONTRA Innovative Training Network Workshop"
+  type: "Invited"
+  year: 2018
+  location: "Warsaw, Poland"
+  video: "https://www.youtube.com/watch?v=KJL6CONjTKk"
+- id: contra-tutorial-2018
+  title: "Tutorial on single-cell RNA-seq analysis (with Ximena Ibarra-Soria)"
   type: "Tutorial"
-  date: 2018-09-12
+  year: 2018
   location: "Warsaw, Poland"
-  description: "With Ximena Ibarra-Soria at the ITN Contra event. Six-part video series."
-  link: "https://www.youtube.com/watch?v=U3bR2zsWxks&list=PLAFFlrzSa6m9Qs8waPFFn2EYUtwMt5eE_"
-
-- id: itn-talk-2018
-  title: "ITN Contra Talks"
-  type: "Talk"
-  date: 2018-09-11
-  location: "Warsaw, Poland"
-  description: "Genetic analysis of differentiating iPS cells using scRNA-seq data."
-  link: "https://www.youtube.com/watch?v=KJL6CONjTKk"
-
+  video: "https://www.youtube.com/watch?v=U3bR2zsWxks&list=PLAFFlrzSa6m9Qs8waPFFn2EYUtwMt5eE_"
 - id: cshl-srge-2018
-  title: "CSHL Systems Regulation of Gene Expression"
-  type: "Talk"
-  date: 2018-03-22
+  title: "Systems Biology: Global Regulation of Gene Expression"
+  type: "Oral"
+  year: 2018
   location: "Cold Spring Harbor Laboratory, New York, USA"
-  description: "Genetic analysis of differentiating iPS cells using scRNA-seq data."
-  link: "https://www.youtube.com/watch?v=va3ANDtfPHY"
+  video: "https://www.youtube.com/watch?v=va3ANDtfPHY"
+- id: weizmann-2017
+  title: "Single Cell Genomics"
+  type: "Oral"
+  year: 2017
+  location: "Weizmann Institute, Rehovot, Israel"
+- id: pmg-2017
+  title: "Probabilistic Modelling in Genomics"
+  type: "Oral"
+  year: 2017
+  location: "Aarhus, Denmark"

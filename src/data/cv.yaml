@@ -1,37 +1,129 @@
-# CV sections, shown in "order". Publications and talks are added automatically
-# from publications.yaml and talks.yaml.
+# CV sections. "order" below 10 appears before Publications/Talks, 10+ after them.
+# Each item: title, where, when, optional link and details (list of lines).
 
 - id: experience
   order: 1
   heading: "Experience"
   items:
-    - title: "Associate Principal Scientist"
-      where: "Centre for Genomics Research (CGR), AstraZeneca, London, UK"
+    - title: "Associate Principal Scientist, Genome Analytics"
+      where: "Centre for Genomics Research, AstraZeneca, London, UK"
       when: "2025 – present"
-    - title: "EMBO Postdoctoral Fellow"
-      where: "Garvan Institute of Medical Research, Sydney, Australia"
+    - title: "Postdoctoral Researcher, Translational Genomics"
+      where: "Garvan Institute of Medical Research (Centre for Population Genomics), Sydney, Australia"
       when: "2021 – 2025"
       details:
         - "Labs of Prof. Joseph Powell and Prof. Daniel MacArthur"
-    - title: "Postdoctoral researcher"
+        - "EMBO Long-Term Postdoctoral Fellow (2022 – 2024)"
+    - title: "Research Associate, Human Genetics"
       where: "Wellcome Sanger Institute, Cambridge, UK"
       when: "2020 – 2021"
       details:
-        - "Group of Prof. Nicole Soranzo, with Dr. Oliver Stegle"
+        - "Group of Prof. Nicole Soranzo"
 
 - id: education
   order: 2
   heading: "Education"
   items:
     - title: "PhD in Statistical Genetics"
-      where: "University of Cambridge & EMBL-EBI, Cambridge, UK"
+      where: "EMBL-EBI and University of Cambridge, UK"
       when: "2016 – 2020"
       details:
         - "Thesis: Using single-cell RNA-seq to assess the effect of common genetic variants on gene expression during development"
         - "Supervised by Dr. Oliver Stegle and Dr. John Marioni"
-    - title: "MSc in Computer Science (Bioinformatics)"
-      where: "Delft University of Technology, The Netherlands"
-      when: "2016"
+    - title: "MSc in Computer Science"
+      where: "Delft University of Technology and Leiden University, The Netherlands"
+      when: "2014 – 2016"
+      details:
+        - "Pattern Recognition and Bioinformatics lab"
     - title: "BSc in Mathematical Engineering"
       where: "Politecnico di Milano, Italy"
-      when: "2014"
+      when: "2011 – 2014"
+
+- id: awards
+  order: 3
+  heading: "Awards and honours"
+  items:
+    - title: "Finalist, ASHG Trainee Research Excellence Award"
+      where: "American Society of Human Genetics Annual Meeting, Denver"
+      when: "2024"
+    - title: "EMBO Long-Term Postdoctoral Fellowship"
+      where: "European Molecular Biology Organization"
+      when: "2022 – 2024"
+    - title: "EMBL PhD Studentship"
+      where: "European Molecular Biology Laboratory"
+      when: "2016 – 2020"
+
+- id: software
+  order: 4
+  heading: "Software"
+  items:
+    - title: "CellRegMap"
+      link: "https://github.com/limix/CellRegMap"
+      where: "Maintainer · Python package for context-specific eQTL mapping"
+      details:
+        - "Accompanying WDL pipeline: github.com/populationgenomics/CellRegMap_pipeline"
+    - title: "SAIGE-QTL"
+      link: "https://github.com/weizhou0/qtl"
+      where: "Co-maintainer · R package for single-cell eQTL mapping"
+
+- id: supervision
+  order: 11
+  heading: "Supervision"
+  items:
+    - title: "Nick Hirschmüller, PhD student"
+      where: "University of Cambridge"
+      when: "2025 – 2027"
+    - title: "Lawrence Huang, PhD student"
+      where: "University of New South Wales"
+      when: "2024 – 2028"
+    - title: "Hope Tanudisastro, MD-PhD student"
+      where: "University of Sydney"
+      when: "2023 – 2025"
+    - title: "Yupeng Zhang, summer student"
+      where: "Garvan Institute / University of Sydney"
+      when: "2023 – 2024"
+    - title: "Giordano Alvari, intern"
+      where: "Stegle lab, EMBL-EBI"
+      when: "2019 – 2020"
+
+- id: teaching
+  order: 12
+  heading: "Teaching"
+  items:
+    - title: "Handling single-cell data (tutorial)"
+      where: "ITN CONTRA, Warsaw, Poland"
+      when: "2018"
+    - title: "Advanced bioinformatics course for 2nd-year EMBL PhD students"
+      where: "EMBL-EBI, Cambridge, UK"
+      when: "2017"
+    - title: "Teaching assistant, Bioinformatics (BSc)"
+      where: "TU Delft, The Netherlands"
+      when: "2014 – 2016"
+
+- id: service
+  order: 13
+  heading: "Service"
+  items:
+    - title: "Peer reviewer"
+      where: "Nature Genetics, Nature Communications, Bioinformatics, BMC Genomics"
+      when: "2016 – present"
+    - title: "Organiser, “Equals, right? Exploring whether medical research benefits everyone equally”"
+      where: "EMBL-EBI Science and Society Conference, Cambridge, UK"
+      when: "2019"
+
+- id: courses
+  order: 14
+  heading: "Courses and workshops"
+  items:
+    - title: "EMBO Postdoctoral Leadership Course"
+      where: "Heidelberg, Germany"
+      when: "2023"
+    - title: "CZI Immune Workshop"
+      where: "Santa Rosa, California, USA"
+      when: "2022"
+    - title: "Computational Genomics Summer Institute (CGSI)"
+      where: "UCLA, Los Angeles, USA"
+      when: "2018"
+    - title: "Human Cell Atlas Jamboree"
+      where: "Wellcome Genome Campus, Cambridge, UK"
+      when: "2017"

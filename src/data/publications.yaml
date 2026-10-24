@@ -61,6 +61,14 @@
   url: "https://www.medrxiv.org/content/10.1101/2025.08.28.25334614v4"
   rank: 4
 
+- id: variability-qtl-2024
+  title: "Genetic variants associated with cell-type-specific intra-individual gene expression variability reveal new mechanisms of genome regulation"
+  authors: "Xue A, …, Cuomo ASE, et al."
+  venue: "bioRxiv (preprint)"
+  year: 2024
+  topic: collaborations
+  url: "https://www.biorxiv.org/content/10.1101/2024.05.05.592598v1"
+
 - id: hcm-sex-2025
   title: "Sex-specific clinical and genetic factors associated with adverse outcomes in hypertrophic cardiomyopathy"
   authors: "Butters A, Arnott C, Sweeting J, Claggett B, Cuomo ASE, et al."
@@ -76,6 +84,9 @@
   year: 2024
   topic: methods
   url: "https://www.medrxiv.org/content/10.1101/2024.05.15.24307317v1"
+  links:
+    - label: "Code"
+      url: "https://github.com/weizhou0/qtl"
   featured: true
   summary: "SAIGE-QTL: a scalable mixed-model tool that maps eQTLs directly from single cells, without collapsing to pseudobulk, and adds set-based tests for rare variants."
 
@@ -106,6 +117,11 @@
   year: 2022
   topic: methods
   url: "https://www.embopress.org/doi/full/10.15252/msb.202110663"
+  links:
+    - label: "Code"
+      url: "https://github.com/limix/CellRegMap"
+    - label: "Pipeline"
+      url: "https://github.com/populationgenomics/CellRegMap_pipeline"
   preprint: "https://www.biorxiv.org/content/10.1101/2021.09.01.458524v1"
   featured: true
   summary: "A method to map context-specific eQTLs from single-cell data, without first grouping cells into discrete cell types."
