@@ -5,6 +5,7 @@
   --teal: #1B6B73;        /* main colour */
   --teal-light: #8CCBCF;  /* light teal */
   --plum: #7A2E4D;        /* second colour */
+  --plum-light: #C98BA6;  /* light plum */
   --mustard: #F0C75E;     /* accents */
   --rule: rgba(42, 37, 34, 0.12);
   --font-head: 'Fraunces', Georgia, serif;
@@ -86,8 +87,8 @@ section { padding: 0 0 64px; }
 @media (min-width: 760px) { .card-grid { grid-template-columns: repeat(3, 1fr); } }
 .card img, .card .tile { width: 100%; height: 170px; border-radius: var(--radius); }
 .card img { object-fit: contain; background: var(--bg); }  /* never crop figures */
-.card .mat { padding: 10px; border-radius: 8px; background: color-mix(in srgb, var(--c) 22%, var(--bg)); }
-.card .mat img { height: 150px; }
+.card .mat { padding: 3px; border-radius: 7px; background: var(--c); }
+.card .mat img { height: 164px; }
 .tile { display: flex; align-items: flex-end; padding: 14px; color: #fff; font-weight: 600; font-size: 14px; }
 .tile-0 { background: var(--teal); }
 .tile-1 { background: var(--plum); }
@@ -156,6 +157,7 @@ section { padding: 0 0 64px; }
 .c-teal { --c: var(--teal); --c-text: var(--teal); }
 .c-plum { --c: var(--plum); --c-text: var(--plum); }
 .c-teal-light { --c: var(--teal-light); --c-text: var(--teal); }
+.c-plum-light { --c: var(--plum-light); --c-text: var(--plum); }
 .c-mustard { --c: var(--mustard); --c-text: #8A6A12; }
 
 /* Footer */

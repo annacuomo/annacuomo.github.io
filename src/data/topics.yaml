@@ -1,6 +1,6 @@
 # Research topics, shown on the Research page in "order".
 # Each publication picks one with "topic:" in publications.yaml.
-# color: teal, plum, teal-light or mustard (tints the section)
+# color: teal, teal-light, plum, plum-light or mustard (tints the section and frames the paper figures)
 # image: optional infographic for the section, e.g. /images/research/tenk10k.png
 
 - id: tenk10k
@@ -22,7 +22,7 @@
   blurb: "Population-scale single-cell studies of iPS cells as they differentiate, revealing genetic effects that appear only at particular stages of development."
 
 - id: reviews
-  color: plum
+  color: plum-light
   order: 4
   title: "Reviews and perspectives"
   blurb: "Overviews of where single-cell genomics and human genetics meet, and where the field is heading."
