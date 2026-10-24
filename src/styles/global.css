@@ -48,7 +48,8 @@ p { margin: 0 0 1em; }
 /* Quieter teal links (e.g. under the bio) */
 .plain-link { color: var(--teal); font-weight: 600; text-decoration: none; }
 .plain-link:hover { text-decoration: underline; text-underline-offset: 4px; }
-.link-row .plain-link + .plain-link::before { content: "·"; color: var(--ink); opacity: .4; margin-right: 20px; font-weight: 400; }
+.bio-links { display: flex; flex-wrap: wrap; gap: 4px 10px; margin-top: 10px; font-size: 17px; }
+.bio-links .plain-link + .plain-link::before { content: "·"; color: var(--ink); opacity: .4; margin-right: 10px; font-weight: 400; }
 
 /* Header */
 .site-header .wrap {
