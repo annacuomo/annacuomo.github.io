@@ -117,6 +117,8 @@
       url: "https://github.com/weizhou0/qtl"
     - label: "Analysis code"
       url: "https://github.com/annacuomo/SAIGE_QTL_analyses"
+    - label: "Website"
+      url: "https://weizhou0.github.io/SAIGE-QTL-doc/"
   featured: true
   image: /images/pubs/saige-qtl.png
   summary: "SAIGE-QTL: a scalable mixed-model tool that maps eQTLs directly from single cells, without collapsing to pseudobulk, and adds set-based tests for rare variants."
@@ -156,6 +158,8 @@
       url: "https://github.com/populationgenomics/CellRegMap_pipeline"
     - label: "Website"
       url: "https://limix.github.io/CellRegMap/"
+    - label: "Analysis code"
+      url: "https://github.com/annacuomo/CellRegMap_analyses"
   preprint: "https://www.biorxiv.org/content/10.1101/2021.09.01.458524v1"
   featured: true
   image: /images/pubs/cellregmap.png
