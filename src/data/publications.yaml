@@ -179,6 +179,8 @@
   links:
     - label: "Analysis code"
       url: "https://github.com/single-cell-genetics/optimising_singlecell_eqtl_paper"
+    - label: "Data"
+      url: "https://zenodo.org/records/4915837"
 
 - id: sc-integration-2021
   title: "Computational principles and challenges in single-cell data integration"
