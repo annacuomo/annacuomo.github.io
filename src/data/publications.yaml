@@ -77,6 +77,8 @@
   links:
     - label: "Analysis code"
       url: "https://github.com/powellgenomicslab/tenk10k_phase1_multiome"
+    - label: "Data"
+      url: "https://huggingface.co/datasets/anglixue/TenK10K_multiome"
 
 - id: effector-genes-2025
   title: "Single-cell genetics identifies cell-type-specific effector genes across complex traits and diseases"
