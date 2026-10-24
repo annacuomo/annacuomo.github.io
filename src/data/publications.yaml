@@ -119,6 +119,7 @@
   topic: reviews
   url: "https://www.nature.com/articles/s41576-023-00599-5"
   featured: true
+  image: /images/pubs/nrg-review.png
   summary: "A review of single-cell genetic studies so far, and the challenges and opportunities ahead for the field."
 
 - id: cellregmap-2022
