@@ -2,13 +2,17 @@
 // A "key publication" card: image (or coloured tile), title, venue, summary.
 import { url, highlightMe } from '../lib/util';
 import PaperLinks from './PaperLinks.astro';
-interface Props { pub: { title: string; authors: string; venue: string; year: number; url: string; preprint?: string; review?: boolean; links?: { label: string; url: string }[]; summary?: string; image?: string }; i: number }
+import { getCollection } from 'astro:content';
+interface Props { pub: { title: string; authors: string; venue: string; year: number; url: string; preprint?: string; review?: boolean; links?: { label: string; url: string }[]; topic?: string; summary?: string; image?: string }; i: number }
 const { pub, i } = Astro.props;
+// The frame around the figure takes the colour of the paper's research topic (see topics.yaml).
+const topics = await getCollection('topics');
+const color = topics.find((t) => t.id === pub.topic)?.data.color ?? 'teal';
 ---
 <article class="card">
   <a href={pub.url} aria-hidden="true" tabindex="-1">
     {pub.image
-      ? <img src={url(pub.image)} alt="" loading="lazy" />
+      ? <div class={`mat c-${color}`}><img src={url(pub.image)} alt="" loading="lazy" /></div>
       : <div class={`tile tile-${i % 3}`}>{pub.venue}</div>}
   </a>
   {pub.review && <span class="tag tag-review" style="margin-top:14px">Review</span>}
