@@ -35,6 +35,7 @@
   topic: tenk10k
   url: "https://www.medrxiv.org/content/10.1101/2025.03.20.25324352v2"
   featured: true
+  image: /images/pubs/tenk10k.png
   summary: "The first phase of TenK10K: matched whole-genome and single-cell RNA sequencing from 1,925 individuals, mapping common and rare variant effects across 28 immune cell types."
   rank: 1
 
