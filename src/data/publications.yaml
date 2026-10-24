@@ -1,7 +1,7 @@
 # Publications, newest first.
 # featured: true  -> shown as a "Key publication" with summary and image
 # preprint: free preprint link, shown as "Free preprint" (handy when the journal version is paywalled)
-# padded: true  -> adds white space between the figure and its coloured frame
+# padded: false -> removes the white space between a figure and its coloured frame
 # image: path under public/, e.g. /images/pubs/tenk10k.png (optional; a coloured tile is used otherwise)
 # topic: which group it appears under on the Research page (see topics.yaml)
 # links: extra links shown as coloured chips under the paper. The colour follows the label:
@@ -159,7 +159,6 @@
   preprint: "https://www.biorxiv.org/content/10.1101/2021.01.20.427401v1"
   featured: true
   image: /images/pubs/sc-eqtl-workflows.png
-  padded: true
   summary: "A systematic comparison of normalisation, aggregation and testing choices for adapting bulk eQTL methods to single-cell data."
 
 - id: sc-integration-2021

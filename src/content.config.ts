@@ -27,7 +27,7 @@ const publications = defineCollection({
     review: z.boolean().default(false),
     topic: z.string().optional(),
     rank: z.number().default(99),
-    padded: z.boolean().default(false),
+    padded: z.boolean().default(true),
     links: z.array(z.object({ label: z.string(), url: z.string() })).default([]),
     featured: z.boolean().default(false),
     summary: z.string().optional(),
