@@ -188,4 +188,5 @@
   url: "https://www.nature.com/articles/s41467-020-14457-z"
   preprint: "https://www.biorxiv.org/content/10.1101/630996v1"
   featured: true
+  image: /images/pubs/endodiff.png
   summary: "Tracking how common genetic variants affect gene expression as iPS cells differentiate towards endoderm, at single-cell resolution."
