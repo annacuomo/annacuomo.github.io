@@ -59,6 +59,9 @@
   topic: tenk10k
   url: "https://www.biorxiv.org/content/10.1101/2024.11.02.621562v4"
   rank: 2
+  links:
+    - label: "Analysis code"
+      url: "https://github.com/populationgenomics/sv-workflows/"
 
 - id: chromatin-qtl-2025
   title: "Genetic regulation of cell type-specific chromatin accessibility shapes immune function and disease risk"
@@ -68,6 +71,9 @@
   topic: tenk10k
   url: "https://www.medrxiv.org/content/10.1101/2025.08.27.25334533v2"
   rank: 3
+  links:
+    - label: "Analysis code"
+      url: "https://github.com/powellgenomicslab/tenk10k_phase1_multiome"
 
 - id: effector-genes-2025
   title: "Single-cell genetics identifies cell-type-specific effector genes across complex traits and diseases"
@@ -77,6 +83,9 @@
   topic: tenk10k
   url: "https://www.medrxiv.org/content/10.1101/2025.08.28.25334614v4"
   rank: 4
+  links:
+    - label: "Analysis code"
+      url: "https://github.com/powellgenomicslab/tenk10k-effector-genes"
 
 - id: variability-qtl-2026
   title: "Genetic variants associated with cell-type-specific intra-individual gene expression variability reveal mechanisms of genome regulation"
