@@ -1,6 +1,7 @@
 ---
 // Papers grouped by research topic (topics come from src/data/topics.yaml).
 import Base from '../layouts/Base.astro';
+import PaperLinks from '../components/PaperLinks.astro';
 import { getCollection } from 'astro:content';
 import { highlightMe, url } from '../lib/util';
 
@@ -25,7 +26,8 @@ const pubs = (await getCollection('publications')).map((p) => p.data).sort((a, b
             {list.map((p) => (
               <li>
                 {p.review && <span class="tag tag-review">Review</span>}<a class="title" href={p.url}>{p.title}</a>
-                <div class="meta"><span set:html={highlightMe(p.authors)} /> · <em>{p.venue}</em>, {p.year}{p.preprint && <> · <a class="accent-link" href={p.preprint}>Free preprint</a></>}{p.links.map((l) => <> · <a class="accent-link" href={l.url}>{l.label}</a></>)}</div>
+                <div class="meta"><span set:html={highlightMe(p.authors)} /> · <em>{p.venue}</em>, {p.year}</div>
+                <PaperLinks preprint={p.preprint} links={p.links} />
               </li>
             ))}
           </ul>

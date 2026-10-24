@@ -14,3 +14,13 @@ export function highlightMe(authors: string): string {
 export function formatDate(d: Date): string {
   return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
 }
+
+// Which colour a paper link gets, based on its label.
+export function linkKind(label: string): string {
+  const l = label.toLowerCase();
+  if (l.includes('preprint')) return 'preprint';
+  if (l.includes('analys') || l.includes('pipeline') || l.includes('workflow') || l.includes('notebook')) return 'analysis';
+  if (l.includes('code') || l.includes('software') || l.includes('package')) return 'code';
+  if (l.includes('data') || l.includes('zenodo')) return 'data';
+  return 'web';
+}

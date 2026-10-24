@@ -1,0 +1,13 @@
+---
+// Small coloured chips under a paper: Free preprint, Code, Analysis code, Data, Website...
+// The colour is picked automatically from the label (see linkKind in lib/util.ts).
+import { linkKind } from '../lib/util';
+interface Props { preprint?: string; links?: { label: string; url: string }[] }
+const { preprint, links = [] } = Astro.props;
+const all = [...(preprint ? [{ label: 'Free preprint', url: preprint }] : []), ...links];
+---
+{all.length > 0 && (
+  <div class="chips">
+    {all.map((l) => <a class={`chip chip-${linkKind(l.label)}`} href={l.url}>{l.label}</a>)}
+  </div>
+)}

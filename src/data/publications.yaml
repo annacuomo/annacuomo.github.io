@@ -3,7 +3,9 @@
 # preprint: free preprint link, shown as "Free preprint" (handy when the journal version is paywalled)
 # image: path under public/, e.g. /images/pubs/tenk10k.png (optional; a coloured tile is used otherwise)
 # topic: which group it appears under on the Research page (see topics.yaml)
-# links: extra links shown under the paper, e.g.
+# links: extra links shown as coloured chips under the paper. The colour follows the label:
+#   "Code" (teal) · "Analysis code" / "Pipeline" (light teal) · "Data" (plum) · "Website" / "Docs" / "Browser" (plum outline)
+#   e.g.
 #   links:
 #     - label: "Code"
 #       url: "https://github.com/..."
@@ -26,6 +28,8 @@
   links:
     - label: "Code"
       url: "https://github.com/ZhouLabGenetics/CASTIE"
+    - label: "Analysis code"
+      url: "https://github.com/ZhouLabGenetics/CASTIE_analyses"
 
 - id: tenk10k-2025
   title: "Impact of rare and common genetic variation on cell type-specific gene expression in human blood"
@@ -45,7 +49,7 @@
   venue: "bioRxiv (preprint)"
   year: 2025
   topic: tenk10k
-  url: "https://pubmed.ncbi.nlm.nih.gov/40291654/"
+  url: "https://www.biorxiv.org/content/10.1101/2024.11.02.621562v4"
   rank: 2
 
 - id: chromatin-qtl-2025
@@ -81,7 +85,7 @@
   venue: "Circulation: Genomic and Precision Medicine"
   year: 2025
   topic: collaborations
-  url: "https://pubmed.ncbi.nlm.nih.gov/39851041/"
+  url: "https://www.ahajournals.org/doi/10.1161/CIRCGEN.124.004641"
 
 - id: saige-qtl-2024
   title: "Efficient and accurate mixed model association tool for single-cell eQTL analysis"
@@ -128,6 +132,8 @@
       url: "https://github.com/limix/CellRegMap"
     - label: "Pipeline"
       url: "https://github.com/populationgenomics/CellRegMap_pipeline"
+    - label: "Website"
+      url: "https://limix.github.io/CellRegMap/"
   preprint: "https://www.biorxiv.org/content/10.1101/2021.09.01.458524v1"
   featured: true
   summary: "A method to map context-specific eQTLs from single-cell data, without first grouping cells into discrete cell types."

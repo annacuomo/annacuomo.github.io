@@ -65,6 +65,8 @@
           url: "https://github.com/limix/CellRegMap"
         - label: "WDL pipeline"
           url: "https://github.com/populationgenomics/CellRegMap_pipeline"
+        - label: "Website"
+          url: "https://limix.github.io/CellRegMap/"
     - title: "SAIGE-QTL"
       when: "R"
       where: "Co-maintainer · package for single-cell eQTL mapping with mixed models"
