@@ -62,6 +62,8 @@
   links:
     - label: "Analysis code"
       url: "https://github.com/populationgenomics/sv-workflows/"
+    - label: "Data"
+      url: "https://zenodo.org/records/15009519"
 
 - id: chromatin-qtl-2025
   title: "Genetic regulation of cell type-specific chromatin accessibility shapes immune function and disease risk"
@@ -187,6 +189,9 @@
   topic: differentiation
   url: "https://www.nature.com/articles/s41588-021-00801-6"
   preprint: "https://www.biorxiv.org/content/10.1101/2020.05.21.103820v1"
+  links:
+    - label: "Data"
+      url: "https://zenodo.org/records/4651413"
 
 - id: covid-entry-2021
   title: "Single-cell meta-analysis of SARS-CoV-2 entry genes across tissues and demographics"
@@ -208,3 +213,6 @@
   featured: true
   image: /images/pubs/endodiff.png
   summary: "Tracking how common genetic variants affect gene expression as iPS cells differentiate towards endoderm, at single-cell resolution."
+  links:
+    - label: "Data"
+      url: "https://zenodo.org/records/3625024"
