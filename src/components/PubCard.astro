@@ -1,7 +1,7 @@
 ---
 // A "key publication" card: image (or coloured tile), title, venue, summary.
 import { url, highlightMe } from '../lib/util';
-interface Props { pub: { title: string; authors: string; venue: string; year: number; url: string; preprint?: string; review?: boolean; summary?: string; image?: string }; i: number }
+interface Props { pub: { title: string; authors: string; venue: string; year: number; url: string; preprint?: string; review?: boolean; links?: { label: string; url: string }[]; summary?: string; image?: string }; i: number }
 const { pub, i } = Astro.props;
 ---
 <article class="card">
@@ -14,5 +14,10 @@ const { pub, i } = Astro.props;
   <h3><a href={pub.url}>{pub.title}</a></h3>
   <p class="authors" set:html={highlightMe(pub.authors)} />
   <p class="muted"><em>{pub.venue}</em>, {pub.year}{pub.summary && <> · {pub.summary}</>}</p>
-  {pub.preprint && <p class="muted" style="margin-top:-6px"><a class="accent-link" href={pub.preprint}>Free preprint</a></p>}
+  {(pub.preprint || (pub.links && pub.links.length > 0)) && (
+    <p class="link-row" style="margin-top:-6px;font-size:14px">
+      {pub.preprint && <a class="accent-link" href={pub.preprint}>Free preprint</a>}
+      {pub.links?.map((l) => <a class="accent-link" href={l.url}>{l.label}</a>)}
+    </p>
+  )}
 </article>

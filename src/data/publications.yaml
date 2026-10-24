@@ -3,6 +3,14 @@
 # preprint: free preprint link, shown as "Free preprint" (handy when the journal version is paywalled)
 # image: path under public/, e.g. /images/pubs/tenk10k.png (optional; a coloured tile is used otherwise)
 # topic: which group it appears under on the Research page (see topics.yaml)
+# links: extra links shown under the paper, e.g.
+#   links:
+#     - label: "Code"
+#       url: "https://github.com/..."
+#     - label: "Data"
+#       url: "https://zenodo.org/records/..."
+#     - label: "Website"
+#       url: "https://..."
 # rank: optional tie-breaker within a year (1 comes first)
 # review: true  -> labelled "Review"
 # Your name is highlighted automatically in the author list.
