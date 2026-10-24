@@ -10,16 +10,20 @@ const pubs = (await getCollection('publications')).map((p) => p.data).sort((a, b
 <Base title="Research">
   <section style="padding-top:24px">
     <h1 style="margin-bottom:16px">Research</h1>
-    <p class="lead" style="max-width:700px;font-size:18px;margin-bottom:48px">
+    <p class="lead" style="max-width:700px;font-size:18px;margin-bottom:40px">
       My work sits where cellular genomics, human genetics and drug discovery meet. Papers are grouped by theme below;
       see <a class="accent-link" href={url('/publications/')}>Publications</a> for the full list by year.
     </p>
-    {topics.map((t) => {
+    {topics.filter((t) => pubs.some((p) => p.topic === t.id)).map((t, i) => {
       const list = pubs.filter((p) => p.topic === t.id);
-      return list.length > 0 && (
-        <div class="cv-section">
-          <h2 style="margin-bottom:8px">{t.data.title}</h2>
-          {t.data.blurb && <p class="muted" style="max-width:700px;font-size:16px">{t.data.blurb}</p>}
+      return (
+        <div class={`topic c-${t.data.color}`}>
+          <div class="topic-head">
+            <span class="topic-num">{String(i + 1).padStart(2, '0')}</span>
+            <h2>{t.data.title}</h2>
+          </div>
+          {t.data.blurb && <p class="blurb">{t.data.blurb}</p>}
+          {t.data.image && <img src={url(t.data.image)} alt={`Overview of ${t.data.title}`} />}
           <ul class="pub-list">
             {list.map((p) => (
               <li>

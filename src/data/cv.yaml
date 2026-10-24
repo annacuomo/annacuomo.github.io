@@ -58,13 +58,19 @@
   heading: "Software"
   items:
     - title: "CellRegMap"
-      link: "https://github.com/limix/CellRegMap"
-      where: "Maintainer · Python package for context-specific eQTL mapping"
-      details:
-        - "Accompanying WDL pipeline: github.com/populationgenomics/CellRegMap_pipeline"
+      when: "Python"
+      where: "Maintainer · package for context-specific eQTL mapping from single-cell data"
+      links:
+        - label: "Code"
+          url: "https://github.com/limix/CellRegMap"
+        - label: "WDL pipeline"
+          url: "https://github.com/populationgenomics/CellRegMap_pipeline"
     - title: "SAIGE-QTL"
-      link: "https://github.com/weizhou0/qtl"
-      where: "Co-maintainer · R package for single-cell eQTL mapping"
+      when: "R"
+      where: "Co-maintainer · package for single-cell eQTL mapping with mixed models"
+      links:
+        - label: "Code"
+          url: "https://github.com/weizhou0/qtl"
 
 - id: supervision
   order: 11

@@ -56,6 +56,7 @@ const cv = defineCollection({
         title: z.string(),
         link: z.string().optional(),
         where: z.string().optional(),
+        links: z.array(z.object({ label: z.string(), url: z.string() })).optional(),
         when: z.string().optional(),
         details: z.array(z.string()).optional(),
       })
@@ -65,7 +66,7 @@ const cv = defineCollection({
 
 const topics = defineCollection({
   loader: file('src/data/topics.yaml'),
-  schema: z.object({ order: z.number(), title: z.string(), blurb: z.string().optional() }),
+  schema: z.object({ order: z.number(), title: z.string(), blurb: z.string().optional(), color: z.enum(['teal', 'plum', 'teal-light', 'mustard']).default('teal'), image: z.string().optional() }),
 });
 
 export const collections = { blog, publications, talks, cv, topics };

@@ -25,9 +25,10 @@ const href = (s: string) => (s.startsWith('http') ? s : url(s));
           <div class="cv-item">
             <div class="cv-when">{it.when}</div>
             <div>
-              <h3>{it.link ? <a href={it.link} style="color:inherit">{it.title}</a> : it.title}</h3>
+              <h3>{it.link ? <a class="title-link" href={it.link}>{it.title}</a> : it.title}</h3>
               {it.where && <div class="muted">{it.where}</div>}
               {it.details && <ul>{it.details.map((d) => <li>{d}</li>)}</ul>}
+              {it.links && <div class="link-row" style="font-size:15px;margin-top:4px">{it.links.map((l) => <a class="accent-link" href={l.url}>{l.label}</a>)}</div>}
             </div>
           </div>
         ))}
@@ -71,9 +72,10 @@ const href = (s: string) => (s.startsWith('http') ? s : url(s));
           <div class="cv-item">
             <div class="cv-when">{it.when}</div>
             <div>
-              <h3>{it.link ? <a href={it.link} style="color:inherit">{it.title}</a> : it.title}</h3>
+              <h3>{it.link ? <a class="title-link" href={it.link}>{it.title}</a> : it.title}</h3>
               {it.where && <div class="muted">{it.where}</div>}
               {it.details && <ul>{it.details.map((d) => <li>{d}</li>)}</ul>}
+              {it.links && <div class="link-row" style="font-size:15px;margin-top:4px">{it.links.map((l) => <a class="accent-link" href={l.url}>{l.label}</a>)}</div>}
             </div>
           </div>
         ))}
