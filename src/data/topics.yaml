@@ -1,0 +1,27 @@
+# Research topics, shown on the Research page in "order".
+# Each publication picks one with "topic:" in publications.yaml.
+
+- id: tenk10k
+  order: 1
+  title: "TenK10K: genetics of immune cells at scale"
+  blurb: "Matched whole-genome and single-cell RNA sequencing from thousands of individuals, mapping how common, rare and repeat variants shape gene expression across immune cell types."
+
+- id: methods
+  order: 2
+  title: "Statistical methods for single-cell eQTL mapping"
+  blurb: "Models and software that map genetic effects on gene expression directly from single-cell data, including effects that change with cell type, state or context."
+
+- id: differentiation
+  order: 3
+  title: "Genetics of cell differentiation"
+  blurb: "Population-scale single-cell studies of iPS cells as they differentiate, revealing genetic effects that appear only at particular stages of development."
+
+- id: reviews
+  order: 4
+  title: "Reviews and perspectives"
+  blurb: "Overviews of where single-cell genomics and human genetics meet, and where the field is heading."
+
+- id: collaborations
+  order: 5
+  title: "Other collaborations"
+  blurb: "Consortium and collaborative work beyond my core projects."

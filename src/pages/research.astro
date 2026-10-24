@@ -1,0 +1,35 @@
+---
+// Papers grouped by research topic (topics come from src/data/topics.yaml).
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { highlightMe, url } from '../lib/util';
+
+const topics = (await getCollection('topics')).sort((a, b) => a.data.order - b.data.order);
+const pubs = (await getCollection('publications')).map((p) => p.data).sort((a, b) => b.year - a.year);
+---
+<Base title="Research">
+  <section style="padding-top:24px">
+    <h1 style="margin-bottom:16px">Research</h1>
+    <p class="lead" style="max-width:700px;font-size:18px;margin-bottom:48px">
+      My work sits where cellular genomics, human genetics and drug discovery meet. Papers are grouped by theme below;
+      see <a class="accent-link" href={url('/publications/')}>Publications</a> for the full list by year.
+    </p>
+    {topics.map((t) => {
+      const list = pubs.filter((p) => p.topic === t.id);
+      return list.length > 0 && (
+        <div class="cv-section">
+          <h2 style="margin-bottom:8px">{t.data.title}</h2>
+          {t.data.blurb && <p class="muted" style="max-width:700px;font-size:16px">{t.data.blurb}</p>}
+          <ul class="pub-list">
+            {list.map((p) => (
+              <li>
+                {p.review && <span class="tag tag-review">Review</span>}<a class="title" href={p.url}>{p.title}</a>
+                <div class="meta"><span set:html={highlightMe(p.authors)} /> · <em>{p.venue}</em>, {p.year}{p.preprint && <> · <a class="accent-link" href={p.preprint}>Free preprint</a></>}</div>
+              </li>
+            ))}
+          </ul>
+        </div>
+      );
+    })}
+  </section>
+</Base>

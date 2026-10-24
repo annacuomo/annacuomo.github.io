@@ -25,6 +25,7 @@ const publications = defineCollection({
     url: z.string(),
     preprint: z.string().optional(),
     review: z.boolean().default(false),
+    topic: z.string().optional(),
     featured: z.boolean().default(false),
     summary: z.string().optional(),
     image: z.string().optional(),
@@ -59,4 +60,9 @@ const cv = defineCollection({
   }),
 });
 
-export const collections = { blog, publications, talks, cv };
+const topics = defineCollection({
+  loader: file('src/data/topics.yaml'),
+  schema: z.object({ order: z.number(), title: z.string(), blurb: z.string().optional() }),
+});
+
+export const collections = { blog, publications, talks, cv, topics };

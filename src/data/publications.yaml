@@ -2,6 +2,7 @@
 # featured: true  -> shown as a "Key publication" with summary and image
 # preprint: free preprint link, shown as "Free preprint" (handy when the journal version is paywalled)
 # image: path under public/, e.g. /images/pubs/tenk10k.png (optional; a coloured tile is used otherwise)
+# topic: which group it appears under on the Research page (see topics.yaml)
 # review: true  -> labelled "Review"
 # Your name is highlighted automatically in the author list.
 
@@ -10,6 +11,7 @@
   authors: "Liu YC, Cuomo ASE, Huang Y, Perez-Schindler J, Min B, Datta S, et al."
   venue: "medRxiv (preprint)"
   year: 2026
+  topic: methods
   url: "https://www.medrxiv.org/content/10.64898/2026.08.13.26360300v2"
 
 - id: tenk10k-2025
@@ -17,6 +19,7 @@
   authors: "Cuomo ASE, Spenceley E, Tanudisastro HA, Bowen B, Henry A, et al."
   venue: "medRxiv (preprint)"
   year: 2025
+  topic: tenk10k
   url: "https://www.medrxiv.org/content/10.1101/2025.03.20.25324352v2"
   featured: true
   summary: "The first phase of TenK10K: matched whole-genome and single-cell RNA sequencing from 1,925 individuals, mapping common and rare variant effects across 28 immune cell types."
@@ -26,6 +29,7 @@
   authors: "Tanudisastro HA, Cuomo ASE, Weisburd B, Welland M, et al."
   venue: "bioRxiv (preprint)"
   year: 2025
+  topic: tenk10k
   url: "https://pubmed.ncbi.nlm.nih.gov/40291654/"
 
 - id: hcm-sex-2025
@@ -33,6 +37,7 @@
   authors: "Butters A, Arnott C, Sweeting J, Claggett B, Cuomo AS, et al."
   venue: "Circulation: Genomic and Precision Medicine"
   year: 2025
+  topic: collaborations
   url: "https://pubmed.ncbi.nlm.nih.gov/39851041/"
 
 - id: saige-qtl-2024
@@ -40,6 +45,7 @@
   authors: "Zhou W, Cuomo ASE, Xue A, Kanai M, Chau G, Krishna C, et al."
   venue: "medRxiv (preprint)"
   year: 2024
+  topic: methods
   url: "https://www.medrxiv.org/content/10.1101/2024.05.15.24307317v1"
   featured: true
   summary: "SAIGE-QTL: a scalable mixed-model tool that maps eQTLs directly from single cells, without collapsing to pseudobulk, and adds set-based tests for rare variants."
@@ -50,6 +56,7 @@
   venue: "Nature Genetics"
   year: 2024
   review: true
+  topic: reviews
   url: "https://www.nature.com/articles/s41588-024-01731-9"
 
 - id: nrg-review-2023
@@ -58,6 +65,7 @@
   venue: "Nature Reviews Genetics"
   year: 2023
   review: true
+  topic: reviews
   url: "https://www.nature.com/articles/s41576-023-00599-5"
   featured: true
   summary: "A review of single-cell genetic studies so far, and the challenges and opportunities ahead for the field."
@@ -67,6 +75,7 @@
   authors: "Cuomo ASE*, Heinen T*, et al."
   venue: "Molecular Systems Biology"
   year: 2022
+  topic: methods
   url: "https://www.embopress.org/doi/full/10.15252/msb.202110663"
   preprint: "https://www.biorxiv.org/content/10.1101/2021.09.01.458524v1"
   featured: true
@@ -77,6 +86,7 @@
   authors: "Cuomo ASE*, Alvari G*, Azodi CB*, et al."
   venue: "Genome Biology"
   year: 2021
+  topic: methods
   url: "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02407-x"
   preprint: "https://www.biorxiv.org/content/10.1101/2021.01.20.427401v1"
   featured: true
@@ -88,6 +98,7 @@
   venue: "Nature Biotechnology"
   year: 2021
   review: true
+  topic: reviews
   url: "https://www.nature.com/articles/s41587-021-00895-7"
 
 - id: neuroseq-2021
@@ -95,6 +106,7 @@
   authors: "Jerber J*, Seaton DD*, Cuomo ASE*, et al."
   venue: "Nature Genetics"
   year: 2021
+  topic: differentiation
   url: "https://www.nature.com/articles/s41588-021-00801-6"
   preprint: "https://www.biorxiv.org/content/10.1101/2020.05.21.103820v1"
 
@@ -103,6 +115,7 @@
   authors: "Muus C, et al."
   venue: "Nature Medicine"
   year: 2021
+  topic: collaborations
   url: "https://www.nature.com/articles/s41591-020-01227-z"
   preprint: "https://www.biorxiv.org/content/10.1101/2020.04.19.049254v1"
 
@@ -111,6 +124,7 @@
   authors: "Cuomo ASE*, Seaton DD*, McCarthy DJ*, et al."
   venue: "Nature Communications"
   year: 2020
+  topic: differentiation
   url: "https://www.nature.com/articles/s41467-020-14457-z"
   preprint: "https://www.biorxiv.org/content/10.1101/630996v1"
   featured: true
