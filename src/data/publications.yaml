@@ -46,7 +46,7 @@
 
 - id: effector-genes-2025
   title: "Single-cell genetics identifies cell-type-specific effector genes across complex traits and diseases"
-  authors: "Henry A, Senabouth A, Tyebally R, Bowen B, Allen PC, Spenceley E, …, Cuomo ASE, et al."
+  authors: "Henry A*, Senabouth A*, Tyebally R*, Bowen B, Allen PC, Spenceley E, …, Cuomo ASE, et al."
   venue: "medRxiv (preprint)"
   year: 2025
   topic: tenk10k
@@ -55,7 +55,7 @@
 
 - id: hcm-sex-2025
   title: "Sex-specific clinical and genetic factors associated with adverse outcomes in hypertrophic cardiomyopathy"
-  authors: "Butters A, Arnott C, Sweeting J, Claggett B, Cuomo AS, et al."
+  authors: "Butters A, Arnott C, Sweeting J, Claggett B, Cuomo ASE, et al."
   venue: "Circulation: Genomic and Precision Medicine"
   year: 2025
   topic: collaborations
@@ -73,7 +73,7 @@
 
 - id: hps-review-2024
   title: "Integrating population genetics, stem cell biology and cellular genomics to study complex human diseases"
-  authors: "Farbehi N, Neavin DR, Cuomo ASE, Studer L, MacArthur DG, Powell JE"
+  authors: "Farbehi N*, Neavin DR*, Cuomo ASE, Studer L, MacArthur DG, Powell JE"
   venue: "Nature Genetics"
   year: 2024
   review: true
