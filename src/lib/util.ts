@@ -11,6 +11,12 @@ export function highlightMe(authors: string): string {
   return authors.replace(/(Cuomo ASE?[*#]*)(?=[,\s]|$)/g, '<strong>$1</strong>');
 }
 
+// Turn **bold** in plain text into <strong>bold</strong> (used for the bio).
+export function boldify(text: string): string {
+  const esc = text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  return esc.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+}
+
 export function formatDate(d: Date): string {
   return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
 }

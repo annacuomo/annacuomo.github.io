@@ -6,7 +6,7 @@ Built with [Astro](https://astro.build) and published with GitHub Pages. Every p
 
 | To change… | Edit |
 |---|---|
-| Bio, name, top-of-page label | `src/pages/index.astro`, `src/data/site.json` |
+| Bio, name, top-of-page label | `src/data/site.json` (use `**double stars**` for bold) |
 | Social links | `src/data/site.json` |
 | Publications | `src/data/publications.yaml` (`featured: true` = key publication) |
 | CV | `src/data/cv.yaml` |

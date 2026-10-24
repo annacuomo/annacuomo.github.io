@@ -2,6 +2,8 @@
   "name": "Anna Cuomo",
   "title": "Anna Cuomo, PhD",
   "eyebrow": "Cellular genomics · Human genetics · Drug discovery",
+  "bio": "I'm an Associate Principal Scientist at AstraZeneca's Centre for Genomic Research in London. A mathematician turned computational biologist, I work at the meeting point of **statistical methods** and **large-scale data**: I develop methods to map genetic effects on gene expression in single cells, such as CellRegMap and SAIGE-QTL, and apply them to population-scale cohorts such as TenK10K, the largest matched whole-genome and single-cell dataset to date. My goal is to understand how natural genetic variation and experimental perturbations shape cells, to reveal mechanism and help find new drug targets.",
+  "bioPrevious": "Previously an EMBO postdoctoral fellow at the Garvan Institute in Sydney and a postdoc at the Wellcome Sanger Institute; PhD in Statistical Genetics from the University of Cambridge and EMBL-EBI.",
   "description": "Associate Principal Scientist at AstraZeneca's Centre for Genomic Research, London. Cellular genomics, human genetics and drug discovery.",
   "links": [
     {

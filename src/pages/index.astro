@@ -3,7 +3,7 @@ import Base from '../layouts/Base.astro';
 import PubCard from '../components/PubCard.astro';
 import site from '../data/site.json';
 import { getCollection } from 'astro:content';
-import { url, formatDate } from '../lib/util';
+import { url, formatDate, boldify } from '../lib/util';
 
 const pubs = (await getCollection('publications')).map((p) => p.data).sort((a, b) => b.year - a.year || a.rank - b.rank);
 const featured = pubs.filter((p) => p.featured).slice(0, 3);
@@ -17,16 +17,9 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft))
     <div>
       <div class="eyebrow">{site.eyebrow}</div>
       <h1>{site.title}</h1>
-      <p class="lead">
-        I'm an Associate Principal Scientist at AstraZeneca's Centre for Genomic Research in London.
-        A mathematician turned computational biologist, I study how genetic variation shapes gene expression
-        in individual cells, and how combining natural variation with perturbation experiments can reveal
-        mechanism and help find new drug targets.
-      </p>
-      <p class="muted">
-        Previously an EMBO postdoctoral fellow at the Garvan Institute in Sydney and a postdoc at the Wellcome
-        Sanger Institute; PhD in Statistical Genetics from the University of Cambridge and EMBL-EBI.
-      </p>
+      <!-- The bio text lives in src/data/site.json ("bio" and "bioPrevious"). -->
+      <p class="lead" set:html={boldify(site.bio)} />
+      <p class="muted" set:html={boldify(site.bioPrevious)} />
       <a class="btn btn-solid" href={url('/cv/')}>Read my CV</a>
       <a class="btn btn-outline" href={url('/publications/')}>Publications</a>
       <div class="bio-links">
