@@ -5,7 +5,7 @@ import site from '../data/site.json';
 import { url } from '../lib/util';
 
 interface Props { title?: string; description?: string; image?: string; math?: boolean }
-const { title, description = site.description, image = '/images/infographic.png', math = false } = Astro.props;
+const { title, description = site.description, image = '/images/social-card.png', math = false } = Astro.props;
 const fullTitle = title ? `${title} | ${site.name}` : site.title;
 const path = Astro.url.pathname.replace(import.meta.env.BASE_URL.replace(/\/$/, ''), '') || '/';
 const nav = [

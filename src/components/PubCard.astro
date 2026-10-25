@@ -9,10 +9,10 @@ const { pub, i } = Astro.props;
 const topics = await getCollection('topics');
 const color = topics.find((t) => t.id === pub.topic)?.data.color ?? 'teal';
 ---
-<article class="card">
+<article class={`card c-${color}`}>
   <a href={pub.url} aria-hidden="true" tabindex="-1">
     {pub.image
-      ? <div class={`mat c-${color}${pub.padded ? ' padded' : ''}`}><img src={url(pub.image)} alt="" loading="lazy" /></div>
+      ? <div class={`mat${pub.padded ? ' padded' : ''}`}><img src={url(pub.image)} alt="" loading="lazy" /></div>
       : <div class={`tile tile-${i % 3}`}>{pub.venue}</div>}
   </a>
   <h3>{pub.review && <span class="tag tag-review">Review</span>}<a href={pub.url}>{pub.title}</a></h3>
