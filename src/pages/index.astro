@@ -13,7 +13,13 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft))
 ---
 <Base>
   <section class="hero">
-    <img class="hero-photo" src={url('/images/profile.jpg')} alt="Anna Cuomo" />
+    <!-- Left: photo with links underneath. Right: name, bio and buttons. -->
+    <div class="hero-side">
+      <img class="hero-photo" src={url('/images/profile.jpg')} alt="Anna Cuomo" />
+      <div class="bio-links">
+        {site.links.slice(0, 5).map((l) => <a class="plain-link" href={l.url}>{l.short ? <><span class="long">{l.label}</span><span class="short">{l.short}</span></> : l.label}</a>)}
+      </div>
+    </div>
     <div>
       <div class="eyebrow">{site.eyebrow}</div>
       <h1>{site.title}</h1>
@@ -22,9 +28,6 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft))
       <p class="muted" set:html={boldify(site.bioPrevious)} />
       <a class="btn btn-solid" href={url('/cv/')}>Read my CV</a>
       <a class="btn btn-outline" href={url('/publications/')}>Publications</a>
-      <div class="bio-links">
-        {site.links.slice(0, 5).map((l) => <a class="plain-link" href={l.url}>{l.short ? <><span class="long">{l.label}</span><span class="short">{l.short}</span></> : l.label}</a>)}
-      </div>
     </div>
   </section>
 
