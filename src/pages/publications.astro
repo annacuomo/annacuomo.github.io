@@ -7,7 +7,7 @@ import { highlightMe } from '../lib/util';
 
 const pubs = (await getCollection('publications')).map((p) => p.data).sort((a, b) => b.year - a.year || a.rank - b.rank);
 const featured = pubs.filter((p) => p.featured);
-const others = pubs.filter((p) => !p.featured);
+const years = [...new Set(pubs.map((p) => p.year))];
 ---
 <Base title="Publications">
   <section style="padding-top:24px">
@@ -18,16 +18,21 @@ const others = pubs.filter((p) => !p.featured);
     </div>
   </section>
   <section>
-    <h2>Other publications</h2>
-    <ul class="pub-list">
-      {others.map((p) => (
-        <li>
-          {p.review && <span class="tag tag-review">Review</span>}<a class="title" href={p.url}>{p.title}</a>
-          <div class="meta"><span set:html={highlightMe(p.authors)} /> · <em>{p.venue}</em>, {p.year}</div>
-                <PaperLinks preprint={p.preprint} links={p.links} />
-        </li>
-      ))}
-    </ul>
+    <h2>All publications</h2>
+    {years.map((y) => (
+      <div class="year-group">
+        <h3 class="year">{y}</h3>
+        <ul class="pub-list">
+          {pubs.filter((p) => p.year === y).map((p) => (
+            <li>
+              {p.review && <span class="tag tag-review">Review</span>}<a class="title" href={p.url}>{p.title}</a>
+              <div class="meta"><span set:html={highlightMe(p.authors)} /> · <em>{p.venue}</em>, {p.year}</div>
+              <PaperLinks preprint={p.preprint} links={p.links} />
+            </li>
+          ))}
+        </ul>
+      </div>
+    ))}
     <p class="muted" style="margin-top:16px">* joint first authors · # corresponding authors. Full list on <a class="accent-link" href="https://scholar.google.com/citations?user=Uu1L_mkAAAAJ">Google Scholar</a>.</p>
   </section>
 </Base>
