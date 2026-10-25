@@ -89,7 +89,7 @@ p { margin: 0 0 1em; }
 
 /* Sections */
 section { padding: 0 0 64px; }
-.eyebrow { color: var(--teal); font-weight: 600; letter-spacing: .06em; text-transform: uppercase; font-size: 13px; }
+.eyebrow { color: var(--teal); font-weight: 600; letter-spacing: .08em; text-transform: uppercase; font-size: 15px; }
 .muted { opacity: .75; font-size: 15px; }
 
 /* Home hero */

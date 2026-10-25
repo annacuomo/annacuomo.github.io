@@ -38,9 +38,9 @@ const href = (s: string) => (s.startsWith('http') ? s : url(s));
 
     <div class="cv-section">
       <h2>Publications</h2>
-      {pubs.map((p) => (
+      {pubs.map((p, i) => (
         <div class="cv-item">
-          <div class="cv-when">{p.year}</div>
+          <div class="cv-when">{i === 0 || pubs[i - 1].year !== p.year ? p.year : ''}</div>
           <div>
             {p.review && <span class="tag tag-review">Review</span>}<a class="title" href={p.url}>{p.title}</a>
             <div class="meta"><span set:html={highlightMe(p.authors)} /> · <em>{p.venue}</em></div>
@@ -53,9 +53,9 @@ const href = (s: string) => (s.startsWith('http') ? s : url(s));
 
     <div class="cv-section">
       <h2>Talks</h2>
-      {talks.map((t) => (
+      {talks.map((t, i) => (
         <div class="cv-item">
-          <div class="cv-when">{t.year}</div>
+          <div class="cv-when">{i === 0 || talks[i - 1].year !== t.year ? t.year : ''}</div>
           <div>
             <h3>{t.title}</h3>
             <div class="muted">
