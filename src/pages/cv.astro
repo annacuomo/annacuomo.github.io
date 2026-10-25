@@ -38,15 +38,16 @@ const href = (s: string) => (s.startsWith('http') ? s : url(s));
 
     <div class="cv-section">
       <h2>Publications</h2>
-      <ul class="pub-list">
-        {pubs.map((p) => (
-          <li>
+      {pubs.map((p) => (
+        <div class="cv-item">
+          <div class="cv-when">{p.year}</div>
+          <div>
             {p.review && <span class="tag tag-review">Review</span>}<a class="title" href={p.url}>{p.title}</a>
-            <div class="meta"><span set:html={highlightMe(p.authors)} /> · <em>{p.venue}</em>, {p.year}</div>
-                <PaperLinks preprint={p.preprint} links={p.links} />
-          </li>
-        ))}
-      </ul>
+            <div class="meta"><span set:html={highlightMe(p.authors)} /> · <em>{p.venue}</em></div>
+            <PaperLinks preprint={p.preprint} links={p.links} />
+          </div>
+        </div>
+      ))}
       <p class="muted" style="margin-top:12px">* joint first authors · # corresponding authors</p>
     </div>
 
