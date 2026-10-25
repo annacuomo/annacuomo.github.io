@@ -71,8 +71,8 @@ p { margin: 0 0 1em; }
   .site-header .wrap { flex-direction: column; align-items: flex-start; gap: 2px; min-height: 0; padding-top: 16px; padding-bottom: 8px; }
   .site-nav { flex-wrap: nowrap; gap: 18px; font-size: 15px; }
   .site-nav a.nav-home { display: none; }   /* your name already links home */
-  .bio-links { font-size: 15px; gap: 2px 8px; }
-  .bio-links .plain-link + .plain-link::before { margin-right: 8px; }
+  .bio-links { font-size: 14px; gap: 2px 7px; }
+  .bio-links .plain-link + .plain-link::before { margin-right: 7px; }
   .bio-links .long { display: none; }
   .hero .eyebrow { white-space: nowrap; text-transform: none; letter-spacing: 0; font-size: min(14px, 3.2vw); }
 }
