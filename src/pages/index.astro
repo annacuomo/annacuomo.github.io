@@ -17,7 +17,7 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft))
     <div class="hero-side">
       <img class="hero-photo" src={url('/images/profile.jpg')} alt="Anna Cuomo" />
       <div class="bio-links">
-        {site.links.map((l) => <a class="plain-link" href={l.url}>{l.short ? <><span class="long">{l.label}</span><span class="short">{l.short}</span></> : l.label}</a>)}
+        {site.links.map((l) => <a class="plain-link" href={l.url} data-e={l.e}>{l.short ? <><span class="long">{l.label}</span><span class="short">{l.short}</span></> : l.label}</a>)}
       </div>
     </div>
     <div>

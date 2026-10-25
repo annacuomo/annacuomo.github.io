@@ -54,9 +54,16 @@ const ogImage = new URL(url(image), Astro.site).toString();
     <div class="wrap">
       <span>© {new Date().getFullYear()} {site.name}</span>
       <span class="link-row">
-        {site.links.map((l) => <a class="accent-link" href={l.url}>{l.label}</a>)}
+        {site.links.map((l) => <a class="accent-link" href={l.url} data-e={l.e}>{l.label}</a>)}
       </span>
     </div>
   </footer>
+  <script is:inline>
+    // Builds the email link in the visitor's browser, so the address never appears as plain text in the page
+    // (it is stored reversed in src/data/site.json as "e").
+    document.querySelectorAll('a[data-e]').forEach(function (a) {
+      a.href = 'mailto:' + a.getAttribute('data-e').split('').reverse().join('');
+    });
+  </script>
 </body>
 </html>

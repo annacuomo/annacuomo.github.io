@@ -16,7 +16,7 @@ const href = (s: string) => (s.startsWith('http') ? s : url(s));
   <section style="padding-top:24px">
     <h1>Curriculum Vitae</h1>
     <p class="link-row" style="margin:16px 0 40px">
-      {site.links.map((l) => <a class="accent-link" href={l.url}>{l.label}</a>)}
+      {site.links.map((l) => <a class="accent-link" href={l.url} data-e={l.e}>{l.label}</a>)}
     </p>
 
     {before.map((s) => (
