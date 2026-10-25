@@ -32,13 +32,12 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft))
   </section>
 
   <section>
-    <div class="panel">
-      <h2>Research interests</h2>
-      <img
-        src={url('/images/infographic.png')}
-        alt="Natural variation and perturbation experiments, both read out in single cells, combine to reveal mechanism, map regulatory networks and prioritise drug targets."
-      />
-    </div>
+    <h2>Research interests</h2>
+    <img
+      class="infographic"
+      src={url('/images/infographic.png')}
+      alt="Natural variation and perturbation experiments, both read out in single cells, combine to reveal mechanism, map regulatory networks and prioritise drug targets."
+    />
   </section>
 
   <section>
