@@ -35,9 +35,9 @@ To analyse it, we used [SAIGE-QTL](https://www.medrxiv.org/content/10.1101/2024.
 
 The size and depth of the data paid off.
 
-- We found common variant eQTLs for 83% of genes, and a rare variant signal for 47%, and secondary signals for >40% of eGenes
+- We found common variant eQTLs for 83% of genes, and a rare variant signal for 47%.
 - Many of the variants fall in functional regions of the genome, including open chromatin regions from our own single-cell ATAC-seq data.
-- >60,000 colocalisations with >5,000 genes and 60 between complex traits and blood diseases, with cell type specific eQTLs more likely to colocalise
+- Over 60,000 colocalisations, involving more than 5,000 genes and 60 complex traits and blood diseases, with cell type specific eQTLs more likely to colocalise
 
 One example to illustrate this: the gene *OSM* has distinct eQTLs in different immune cell types, and only the effect specific to natural killer (NK) cells overlaps a known risk locus for inflammatory bowel disease (IBD). eQTLs allow us to determine the direction of the effect: higher *OSM* expression in NK cells corresponds to higher IBD risk. Since moving to pharma I have much deeper appreciation for quite how long the path is going from a gene described in a research paper to actually designing a drug, and therefore how important it is to learn as much as possible about a gene's mode-of-action and relationship to disease risk.
 
@@ -57,7 +57,7 @@ We did many (and many more, upon revision) analyses I am excited to talk about, 
 
 ## A resource for everyone
 
-For the time being, that's all folks! Just a sneak peek of the data, and hopefully an invitation to use TenK10K data for your own analyses. All summary statistics, for both window sizes, and the fine-mapping results are [available on Zenodo](https://zenodo.org/records/18221260), and the [analysis code is on GitHub](https://github.com/powellgenomicslab/tenk10k_phase1). You can also explore the results in our [interactive browser](https://browser.tenk10k.org/).
+For the time being, that's all folks! Just a sneak peek of the data, and hopefully an invitation to use TenK10K data for your own analyses. All summary statistics are [available on Zenodo](https://zenodo.org/records/18221260), and the [analysis code is on GitHub](https://github.com/powellgenomicslab/tenk10k_phase1). You can also explore the results in our [interactive browser](https://browser.tenk10k.org/).
 
 ## Companion papers
 
