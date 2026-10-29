@@ -35,12 +35,13 @@
       url: "https://yijia0802.github.io/CASTIE_doc/"
 
 - id: tenk10k-2025
-  title: "Impact of rare and common genetic variation on cell type-specific gene expression in human blood"
+  title: "Rare and common genetic variants shape single-cell immune gene expression"
   authors: "Cuomo ASE, Spenceley E, Tanudisastro HA, Bowen B, Henry A, et al."
-  venue: "medRxiv (preprint)"
-  year: 2025
+  venue: "Nature"
+  year: 2026
   topic: tenk10k
-  url: "https://www.medrxiv.org/content/10.1101/2025.03.20.25324352v2"
+  url: "https://www.nature.com/articles/s41586-026-10721-2"
+  preprint: "https://www.medrxiv.org/content/10.1101/2025.03.20.25324352v2"
   featured: true
   image: /images/pubs/tenk10k.png
   summary: "The first phase of TenK10K: matched whole-genome and single-cell RNA sequencing from 1,925 individuals, mapping common and rare variant effects across 28 immune cell types."
@@ -54,12 +55,13 @@
       url: "https://github.com/populationgenomics/saige-tenk10k"
 
 - id: tandem-repeats-2025
-  title: "Polymorphic tandem repeats influence cell type-specific gene expression across the human immune landscape"
+  title: "Tandem repeat variation shapes immune cell type-specific gene expression"
   authors: "Tanudisastro HA, Cuomo ASE, Weisburd B, Welland M, et al."
-  venue: "bioRxiv (preprint)"
-  year: 2025
+  venue: "Nature"
+  year: 2026
   topic: tenk10k
-  url: "https://www.biorxiv.org/content/10.1101/2024.11.02.621562v4"
+  url: "https://www.nature.com/articles/s41586-026-10438-2"
+  preprint: "https://www.biorxiv.org/content/10.1101/2024.11.02.621562v4"
   rank: 2
   links:
     - label: "Analysis code"
@@ -68,12 +70,13 @@
       url: "https://zenodo.org/records/15009519"
 
 - id: chromatin-qtl-2025
-  title: "Genetic regulation of cell type-specific chromatin accessibility shapes immune function and disease risk"
+  title: "Genetic variants shape single-cell chromatin accessibility and disease risk"
   authors: "Xue A, Fan J, Dong OA, Huang HL, Chen L, Allen PC, …, Cuomo ASE, et al."
-  venue: "medRxiv (preprint)"
-  year: 2025
+  venue: "Nature"
+  year: 2026
   topic: tenk10k
-  url: "https://www.medrxiv.org/content/10.1101/2025.08.27.25334533v2"
+  url: "https://www.nature.com/articles/s41586-026-11173-4"
+  preprint: "https://www.medrxiv.org/content/10.1101/2025.08.27.25334533v2"
   rank: 3
   links:
     - label: "Analysis code"
