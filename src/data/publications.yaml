@@ -97,6 +97,8 @@
   links:
     - label: "Analysis code"
       url: "https://github.com/powellgenomicslab/tenk10k-effector-genes"
+    - label: "Browser"
+      url: "https://browser.tenk10k.org/"
 
 - id: variability-qtl-2026
   title: "Genetic variants associated with cell-type-specific intra-individual gene expression variability reveal mechanisms of genome regulation"
