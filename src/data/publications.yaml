@@ -70,6 +70,8 @@
       url: "https://github.com/populationgenomics/sv-workflows/"
     - label: "Data"
       url: "https://zenodo.org/records/15009519"
+    - label: "Browser"
+      url: "https://browser.tenk10k.org/"
 
 - id: chromatin-qtl-2025
   title: "Genetic variants shape single-cell chromatin accessibility and disease risk"
@@ -85,6 +87,8 @@
       url: "https://github.com/powellgenomicslab/tenk10k_phase1_multiome"
     - label: "Data"
       url: "https://huggingface.co/datasets/anglixue/TenK10K_multiome"
+    - label: "Browser"
+      url: "https://browser.tenk10k.org/"
 
 - id: effector-genes-2025
   title: "Single-cell genetics identifies cell-type-specific effector genes across complex traits and diseases"
