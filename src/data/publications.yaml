@@ -53,6 +53,8 @@
       url: "https://github.com/powellgenomicslab/tenk10k_phase1/tree/main"
     - label: "Pipeline"
       url: "https://github.com/populationgenomics/saige-tenk10k"
+    - label: "Browser"
+      url: "https://browser.tenk10k.org/"
 
 - id: tandem-repeats-2025
   title: "Tandem repeat variation shapes immune cell type-specific gene expression"

@@ -64,7 +64,7 @@ If you read the preprint, here is what we added during revision:
 
 ## A resource for everyone
 
-We want TenK10K to be used well beyond our own papers. All summary statistics, for both window sizes, and the fine-mapping results are [available on Zenodo](https://zenodo.org/records/18221260), and the [analysis code is on GitHub](https://github.com/powellgenomicslab/tenk10k_phase1).
+We want TenK10K to be used well beyond our own papers. All summary statistics, for both window sizes, and the fine-mapping results are [available on Zenodo](https://zenodo.org/records/18221260), and the [analysis code is on GitHub](https://github.com/powellgenomicslab/tenk10k_phase1). You can also explore the results in our [interactive browser](https://browser.tenk10k.org/).
 
 ## Companion papers
 
