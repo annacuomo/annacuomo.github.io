@@ -14,11 +14,11 @@ I plan on writing a few posts following up on this one to dive into different as
 
 ## Why look at genetics one cell at a time?
 
-Differences ("variants") in the DNA of one person compared to another contribute to how we all look different, and also to our risk of developing diseases, yet most of these genetic variants do not directly change a protein. Instead, they sit in regulatory regions of the genome and change how much of a gene is produced, by turning its expression up or down: they are called expression quantitative trait loci, or eQTLs. Importantly, these effects often can only be detected in particular cell types or states, and are often masked when gene expression is measured in "bulk" one tissue at a time.
+Differences ("variants") in the DNA of one person compared to another contribute to how we all look different and also to our risk of developing diseases, yet most of these genetic variants do not directly change a protein. Instead, they sit in regulatory regions of the genome and change how much of a gene is produced, by turning its expression up or down: they are called expression quantitative trait loci, or eQTLs. Importantly, these effects often can only be detected in particular cell types or states, and are often masked when gene expression is measured in "bulk" at a whole-tissue resolution.
 
 Population-scale single-cell studies, with matched genotypes and single-cell RNA-seq for hundreds (and now thousands) of people, let us map these effects in the cell where they actually act, as we wrote in a [recent review in *Nature Reviews Genetics*](https://www.nature.com/articles/s41576-023-00599-5).
 
-TenK10K was designed to tackle two key limitations of existing single-cell eQTL studies. They tested only **common** variants, and they averaged each person's cells into a "pseudobulk" profile instead of modelling the single cell expression profiles directly.
+TenK10K was designed to tackle two key limitations of existing single-cell eQTL studies. They test only **common** variants, and they average each person's cells into a "pseudobulk" profile instead of modelling the single cell expression profiles directly.
 
 ## What we did
 
@@ -37,16 +37,16 @@ The size and depth of the data paid off.
 
 - We found common variant eQTLs for 83% of genes, and a rare variant signal for 47%.
 - Many of the variants fall in functional regions of the genome, including open chromatin regions from our own single-cell ATAC-seq data.
-- Over 60,000 colocalisations, involving more than 5,000 genes and 60 complex traits and blood diseases, with cell type specific eQTLs more likely to colocalise
+- Over 60,000 colocalisations involving more than 5,000 genes and 60 complex traits and blood diseases, with cell type specific eQTLs more likely to colocalise.
 
-One example to illustrate this: the gene *OSM* has distinct eQTLs in different immune cell types, and only the effect specific to natural killer (NK) cells overlaps a known risk locus for inflammatory bowel disease (IBD). eQTLs allow us to determine the direction of the effect: higher *OSM* expression in NK cells corresponds to higher IBD risk. Since moving to pharma I have much deeper appreciation for quite how long the path is going from a gene described in a research paper to actually designing a drug, and therefore how important it is to learn as much as possible about a gene's mode-of-action and relationship to disease risk.
+One example to illustrate this: the gene *OSM* has distinct eQTLs in different immune cell types, and only the effect specific to natural killer (NK) cells overlaps a known risk locus for inflammatory bowel disease (IBD). eQTLs allow us to determine the direction of the effect: higher *OSM* expression in NK cells corresponds to higher IBD risk. Since moving to pharma I have much deeper appreciation for quite how long the path is going from a gene described in a research paper to actually designing a drug, and therefore how important it is to learn as much as possible about a gene's mode-of-action and relationship to disease risk, which is exactly why knowing the cell type and direction of effect matters.
 
 <figure>
   <img src="../../images/blog/tenk10k-osm.png" alt="Left: OSM eQTL association signals in CD4 central memory T cells and in NK cells, compared with the IBD GWAS signal at the same locus. Right: scatter of the NK-cell OSM eQTL against IBD GWAS signal, showing strong agreement." />
   <figcaption>The <em>OSM</em> example. Left: distinct eQTL signals for <em>OSM</em> in CD4 central memory T cells and in NK cells; only the NK-cell signal lines up with the IBD risk locus. Right: across variants, the effect on <em>OSM</em> expression in NK cells and the effect on IBD risk line up in the same direction, so higher <em>OSM</em> expression in NK cells corresponds to higher IBD risk. Adapted from Cuomo et al., <em>medRxiv</em> 2025 (CC BY 4.0).</figcaption>
 </figure>
 
-Another example just to highlight a rare variant result: *SH2D2A* has a significant gene-level rare variant effect in CD4+ central memory T cells: yet on their own, the individual variants are not especially significant (check that y-axis!). It is genuinely their joint effect, across several *non-coding* variants in enhancers, UTR and an intron, rather than a single variant changing the protein. The biology fits nicely, too: *SH2D2A* encodes the T cell-specific adaptor protein (TSAd), which induces cytokine production in CD4+ T cells, and the gene has been linked to autoimmune conditions including hypothyroidism. Again, so much more work needs to happen now but exciting to see this gene had not been reported previously so a nice highlight of these data's potential.
+Another example just to highlight a rare variant result: *SH2D2A* has a significant gene-level rare variant effect in CD4+ central memory T cells: yet on their own, the individual variants are not especially significant (check that y-axis!). It is genuinely their joint effect, across several *non-coding* variants in enhancers, UTR and an intron, rather than a single variant changing the protein. The biology fits nicely, too: *SH2D2A* encodes the T cell-specific adaptor protein (TSAd), which induces cytokine production in CD4+ T cells, and the gene has been linked to autoimmune conditions including hypothyroidism. Again, so much more work needs to happen now but exciting to see this gene had not been reported previously to be genetically regulated so a nice highlight of these data's potential.
 
 <figure>
   <img src="../../images/blog/tenk10k-sh2d2a.png" alt="Single-variant association results for rare non-coding variants around SH2D2A in CD4+ central memory T cells, labelled by functional annotation." style="max-width: 85%" />
