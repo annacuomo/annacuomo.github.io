@@ -2,7 +2,7 @@
 # featured: true  -> shown as a "Key publication" with summary and image
 # preprint: free preprint link, shown as "Free preprint" (handy when the journal version is paywalled)
 # padded: false -> removes the white space between a figure and its coloured frame
-# image: path under public/, e.g. /images/pubs/tenk10k.png (optional; a coloured tile is used otherwise)
+# image: path under public/, e.g. /images/pubs/tenk10k.webp (optional; a coloured tile is used otherwise)
 # topic: which group it appears under on the Research page (see topics.yaml)
 # links: extra links shown as coloured chips under the paper (any order: the site sorts them).
 #   The colour follows the label:
@@ -43,7 +43,7 @@
   url: "https://www.nature.com/articles/s41586-026-10721-2"
   preprint: "https://www.medrxiv.org/content/10.1101/2025.03.20.25324352v2"
   featured: true
-  image: /images/pubs/tenk10k.png
+  image: /images/pubs/tenk10k.webp
   summary: "The first phase of TenK10K: matched whole-genome and single-cell RNA sequencing from 1,925 individuals, mapping common and rare variant effects across 28 immune cell types."
   rank: 1
   links:
@@ -136,7 +136,7 @@
     - label: "Website"
       url: "https://weizhou0.github.io/SAIGE-QTL-doc/"
   featured: true
-  image: /images/pubs/saige-qtl.png
+  image: /images/pubs/saige-qtl.webp
   summary: "SAIGE-QTL: a scalable mixed-model tool that maps eQTLs directly from single cells, without collapsing to pseudobulk, and adds set-based tests for rare variants."
 
 - id: hps-review-2024
@@ -157,7 +157,7 @@
   topic: reviews
   url: "https://www.nature.com/articles/s41576-023-00599-5"
   featured: true
-  image: /images/pubs/nrg-review.png
+  image: /images/pubs/nrg-review.webp
   summary: "A review of single-cell genetic studies so far, and the challenges and opportunities ahead for the field."
 
 - id: cellregmap-2022
@@ -178,7 +178,7 @@
       url: "https://github.com/annacuomo/CellRegMap_analyses"
   preprint: "https://www.biorxiv.org/content/10.1101/2021.09.01.458524v1"
   featured: true
-  image: /images/pubs/cellregmap.png
+  image: /images/pubs/cellregmap.webp
   summary: "A method to map context-specific eQTLs from single-cell data, without first grouping cells into discrete cell types."
 
 - id: sc-eqtl-workflows-2021
@@ -190,7 +190,7 @@
   url: "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02407-x"
   preprint: "https://www.biorxiv.org/content/10.1101/2021.01.20.427401v1"
   featured: true
-  image: /images/pubs/sc-eqtl-workflows.png
+  image: /images/pubs/sc-eqtl-workflows.webp
   summary: "A systematic comparison of normalisation, aggregation and testing choices for adapting bulk eQTL methods to single-cell data."
   links:
     - label: "Analysis code"
@@ -239,7 +239,7 @@
   url: "https://www.nature.com/articles/s41467-020-14457-z"
   preprint: "https://www.biorxiv.org/content/10.1101/630996v1"
   featured: true
-  image: /images/pubs/endodiff.png
+  image: /images/pubs/endodiff.webp
   summary: "Tracking how common genetic variants affect gene expression as iPS cells differentiate towards endoderm, at single-cell resolution."
   links:
     - label: "Data"

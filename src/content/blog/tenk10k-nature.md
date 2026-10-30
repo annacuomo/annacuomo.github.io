@@ -23,7 +23,7 @@ TenK10K was designed to tackle two key limitations of existing single-cell eQTL 
 ## What we did
 
 <figure>
-  <img src="../../images/blog/tenk10k-fig1a.png" alt="TenK10K phase 1 study design: blood from 1,925 individuals, whole-genome sequencing and single-cell RNA sequencing, and the six main analyses" />
+  <img src="../../images/blog/tenk10k-fig1a.webp" alt="TenK10K phase 1 study design: blood from 1,925 individuals, whole-genome sequencing and single-cell RNA sequencing, and the six main analyses" />
   <figcaption>TenK10K phase 1 at a glance: whole-genome sequencing and single-cell RNA-seq from the same people, and the main analyses in the paper. Adapted from Cuomo et al., <em>medRxiv</em> 2025 (CC BY 4.0).</figcaption>
 </figure>
 
@@ -42,14 +42,14 @@ The size and depth of the data paid off.
 One example to illustrate this: the gene *OSM* has distinct eQTLs in different immune cell types, and only the effect specific to natural killer (NK) cells overlaps a known risk locus for inflammatory bowel disease (IBD). eQTLs allow us to determine the direction of the effect: higher *OSM* expression in NK cells corresponds to higher IBD risk. Since moving to pharma I have much deeper appreciation for quite how long the path is going from a gene described in a research paper to actually designing a drug, and therefore how important it is to learn as much as possible about a gene's mode-of-action and relationship to disease risk, which is exactly why knowing the cell type and direction of effect matters.
 
 <figure>
-  <img src="../../images/blog/tenk10k-osm.png" alt="Left: OSM eQTL association signals in CD4 central memory T cells and in NK cells, compared with the IBD GWAS signal at the same locus. Right: scatter of the NK-cell OSM eQTL against IBD GWAS signal, showing strong agreement." />
+  <img loading="lazy" src="../../images/blog/tenk10k-osm.webp" alt="Left: OSM eQTL association signals in CD4 central memory T cells and in NK cells, compared with the IBD GWAS signal at the same locus. Right: scatter of the NK-cell OSM eQTL against IBD GWAS signal, showing strong agreement." />
   <figcaption>The <em>OSM</em> example. Left: distinct eQTL signals for <em>OSM</em> in CD4 central memory T cells and in NK cells; only the NK-cell signal lines up with the IBD risk locus. Right: across variants, the effect on <em>OSM</em> expression in NK cells and the effect on IBD risk line up in the same direction, so higher <em>OSM</em> expression in NK cells corresponds to higher IBD risk. Adapted from Cuomo et al., <em>medRxiv</em> 2025 (CC BY 4.0).</figcaption>
 </figure>
 
 Another example just to highlight a rare variant result: *SH2D2A* has a significant gene-level rare variant effect in CD4+ central memory T cells: yet on their own, the individual variants are not especially significant (check that y-axis!). It is genuinely their joint effect, across several *non-coding* variants in enhancers, UTR and an intron, rather than a single variant changing the protein. The biology fits nicely, too: *SH2D2A* encodes the T cell-specific adaptor protein (TSAd), which induces cytokine production in CD4+ T cells, and the gene has been linked to autoimmune conditions including hypothyroidism. Again, so much more work needs to happen now but exciting to see this gene had not been reported previously to be genetically regulated so a nice highlight of these data's potential.
 
 <figure>
-  <img src="../../images/blog/tenk10k-sh2d2a.png" alt="Single-variant association results for rare non-coding variants around SH2D2A in CD4+ central memory T cells, labelled by functional annotation." style="max-width: 85%" />
+  <img loading="lazy" src="../../images/blog/tenk10k-sh2d2a.webp" alt="Single-variant association results for rare non-coding variants around SH2D2A in CD4+ central memory T cells, labelled by functional annotation." style="max-width: 85%" />
   <figcaption>The <em>SH2D2A</em> example. Single-variant results for rare variants around <em>SH2D2A</em> in CD4+ central memory T cells, labelled by functional annotation: individually modest, together they drive a strong gene-level signal. Adapted from Cuomo et al., <em>medRxiv</em> 2025 (CC BY 4.0).</figcaption>
 </figure>
 
