@@ -6,7 +6,7 @@ summary: "How common and rare genetic variants shape gene expression across 28 i
 image: /images/blog/tenk10k-fig1a.png
 ---
 
-I have not written a blog post before, so bear with me, but a first author paper in Nature does not come every day so I thought it was as good a place to start as any, and it was the push I needed to (ask Claude to help me) zhuzh up my personal website.
+I have not written a blog post before, so bear with me, but a first author paper in Nature does not come every day! So I thought it was as good a place to start as any, and it was the push I needed to (ask Claude to help me) zhuzh up my personal website.
 
 I'm very proud to share the main work of my postdoc, now published in *Nature*: the first phase of **TenK10K**, with matched whole-genome sequencing and single-cell RNA sequencing from nearly 2,000 individuals. [Read the paper here](https://www.nature.com/articles/s41586-026-10721-2).
 
