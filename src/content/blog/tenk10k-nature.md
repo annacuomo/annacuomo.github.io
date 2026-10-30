@@ -1,7 +1,7 @@
 ---
 title: "TenK10K phase 1 is out in Nature"
 date: 2026-10-30
-tag: "Paper"
+tag: "TenK10K"
 summary: "How common and rare genetic variants shape gene expression across 28 immune cell types, in nearly 2,000 people."
 image: /images/blog/tenk10k-fig1a.png
 ---
