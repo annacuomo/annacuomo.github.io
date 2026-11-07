@@ -123,7 +123,7 @@
 
 - id: saige-qtl-2024
   title: "Efficient and accurate mixed model association tool for single-cell eQTL analysis"
-  authors: "Zhou W*, Cuomo ASE*, Xue A*, Kanai M, Chau G, Krishna C, et al."
+  authors: "Zhou W*, Cuomo ASE*, Hu L*, Xue A, Kanai M, Liu YC, et al."
   venue: "Nature Genetics"
   year: 2026
   topic: methods
