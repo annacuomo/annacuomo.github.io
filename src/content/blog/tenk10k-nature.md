@@ -29,7 +29,7 @@ TenK10K was designed to tackle two key limitations of existing single-cell eQTL 
 
 We collected blood from 1,925 individuals and profiled 5.4 million cells, approximately 3,000 cells per individual, spanning 28 immune cell types. Whole-genome sequencing gave us both common **and rare** genetic variants for every participant.
 
-To analyse it, we used [SAIGE-QTL](https://www.medrxiv.org/content/10.1101/2024.05.15.24307317v1), a method we recently developed to model single-cell counts directly rather than pseudobulk. SAIGE-QTL also allows us to use gene-level tests (burden and SKAT) that combine many rare variants together, because each one on its own is too rare to test.
+To analyse it, we used [SAIGE-QTL](https://www.nature.com/articles/s41588-026-02798-2), a method we developed (now out in *Nature Genetics*) to model single-cell counts directly rather than pseudobulk. SAIGE-QTL also allows us to use gene-level tests (burden and SKAT) that combine many rare variants together, because each one on its own is too rare to test.
 
 ## What we found
 
