@@ -77,6 +77,6 @@ And there is more to come: Albert Henry, Anne Senabouth, Rika Tyebally and colle
 
 First, thank you to the participants who generously provided their data, and the respective program teams that enabled their inclusion in this project.
 
-On a personal note, this was an amazing project to be part of, and I am very grateful to Joseph Powell and Daniel MacArthur for trusting me with it. I learnt a lot, and am very proud of the final product, and I miss Australia and the team every day!! Massive thanks and congratulations to everyone involved, including Hope Tanudisastro, Ellie Spenceley, Blake Bowen, Albert Henry, Lawrence Huang, Angli Xue, Wei Zhou, Katrina de Lange and many, many others: the dream team!
+On a personal note, this was an amazing project to be part of, and I am very grateful to Joseph Powell and Daniel MacArthur for trusting me with it. I learnt a lot, and am very proud of the final product, and I miss Australia and the team every day!! Massive thanks and congratulations to everyone involved, including Hope Tanudisastro, Eleanor (Ellie) Spenceley, Blake Bowen, Albert Henry, Hao Lawrence Huang, Angli Xue, Wei Zhou, Katrina de Lange and many, many others: the dream team!
 
 For more detail, [read the paper](https://www.nature.com/articles/s41586-026-10721-2) or <a href="#contact" data-e="moc.liamg@omouc.es.anna">get in touch</a>.
