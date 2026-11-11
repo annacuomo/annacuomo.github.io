@@ -30,3 +30,15 @@ export function linkKind(label: string): string {
   if (l.includes('data') || l.includes('zenodo')) return 'data';
   return 'web';
 }
+
+// Colour of a blog post's tag, matching the Research page topics
+// (teal = TenK10K, plum = methods, light teal = differentiation, light plum = reviews).
+// Any other tag stays mustard.
+export function tagColor(tag: string): string {
+  const t = tag.toLowerCase();
+  if (t.includes('tenk10k')) return 'teal';
+  if (t.includes('method')) return 'plum';
+  if (t.includes('differentiation') || t.includes('ipsc')) return 'teal-light';
+  if (t.includes('review')) return 'plum-light';
+  return 'mustard';
+}

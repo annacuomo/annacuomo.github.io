@@ -1,7 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { getCollection, render } from 'astro:content';
-import { url, formatDate } from '../../lib/util';
+import { url, formatDate, tagColor } from '../../lib/util';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog', ({ data }) => !data.draft);
@@ -13,7 +13,7 @@ const { Content } = await render(post);
 <Base title={post.data.title} description={post.data.summary} image={post.data.image} math>
   <article>
     <header class="post-head">
-      <span class="tag">{post.data.tag}</span>
+      <span class={`tag tag-${tagColor(post.data.tag)}`}>{post.data.tag}</span>
       <h1>{post.data.title}</h1>
       <p class="muted">{formatDate(post.data.date)}</p>
     </header>

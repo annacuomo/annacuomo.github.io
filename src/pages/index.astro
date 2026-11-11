@@ -3,7 +3,7 @@ import Base from '../layouts/Base.astro';
 import PubCard from '../components/PubCard.astro';
 import site from '../data/site.json';
 import { getCollection } from 'astro:content';
-import { url, formatDate, boldify } from '../lib/util';
+import { url, formatDate, boldify, tagColor } from '../lib/util';
 
 const pubs = (await getCollection('publications')).map((p) => p.data).sort((a, b) => b.year - a.year || a.rank - b.rank);
 const featured = pubs.filter((p) => p.featured).slice(0, 3);
@@ -53,7 +53,7 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft))
       <h2>From the blog</h2>
       {posts.map((p) => (
         <div class="post-row">
-          <span class="tag">{p.data.tag}</span>
+          <span class={`tag tag-${tagColor(p.data.tag)}`}>{p.data.tag}</span>
           <div>
             <h3><a href={url(`/blog/${p.id}/`)}>{p.data.title}</a></h3>
             <p class="muted" style="margin:4px 0 0">{formatDate(p.data.date)}{p.data.summary && <> · {p.data.summary}</>}</p>

@@ -1,7 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { getCollection } from 'astro:content';
-import { url, formatDate } from '../../lib/util';
+import { url, formatDate, tagColor } from '../../lib/util';
 
 const posts = (await getCollection('blog', ({ data }) => !data.draft))
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
@@ -12,7 +12,7 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft))
     {posts.length === 0 && <p class="muted">The first post is coming soon.</p>}
     {posts.map((p) => (
       <div class="post-row">
-        <span class="tag">{p.data.tag}</span>
+        <span class={`tag tag-${tagColor(p.data.tag)}`}>{p.data.tag}</span>
         <div>
           <h3><a href={url(`/blog/${p.id}/`)}>{p.data.title}</a></h3>
           <p class="muted" style="margin:4px 0 0">{formatDate(p.data.date)}{p.data.summary && <> · {p.data.summary}</>}</p>
