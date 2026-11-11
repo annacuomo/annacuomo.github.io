@@ -65,6 +65,11 @@ Finally SAIGE-GENE+ improves upon SAIGE-GENE by better handling extremely rare v
 SAIGE-QTL builds on the same foundation as SAIGE and SAIGE-GENE(+), keeping all those benefits (adjusting for relatedness, scalability, and calibrated rare-variant tests), and like them can test effects of single variants (for common variants) and sets of variants in a region (for rare variants).
 It is also a generalised mixed model, but it uses a Poisson distribution instead, which is better suited for count data such as (single-cell) RNA-seq. It cleverly handles multiple observations per individual, allowing it to model single cells that share identical genotypes.
 
+<figure>
+  <img src="../../images/pubs/saige-qtl.webp" alt="SAIGE-QTL overview: a Poisson mixed model fitted directly to single-cell counts rather than pseudobulk, with histograms contrasting near-Normal bulk expression and highly skewed single-cell expression for SRGAP2; single-variant tests for common variants and set-based tests for rare variants; scalable and robust." />
+  <figcaption>SAIGE-QTL at a glance: a Poisson mixed model fitted directly to single-cell counts, whose distribution (right histogram) looks nothing like bulk expression (left); single-variant tests for common variants and set-based tests for rare variants; and scalable enough for datasets like TenK10K. Histograms from Cuomo et al., <em>Nature Reviews Genetics</em> 2023.</figcaption>
+</figure>
+
 In the paper, we demonstrate calibration under a variety of settings using simulations, and apply it to real data (mainly [OneK1K](https://www.science.org/doi/10.1126/science.abf3041), the precursor to TenK10K). We show improved power compared to the popular pseudobulk method TensorQTL, and demonstrate applicability to rare variant testing in the single-cell eQTL setting.
 We also ran _trans_ eQTL mapping: testing for variants genome-wide including on a different chromosome from the gene of interest.
 
