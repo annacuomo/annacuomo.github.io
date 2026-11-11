@@ -3,7 +3,7 @@ title: "SAIGE-QTL is out in Nature Genetics"
 date: 2026-11-11
 tag: "Method"
 summary: "A new robust and scalable model to map single-cell eQTLs for both common and rare variants."
-image: /images/blog/saige-qtl-social.png
+image: /images/blog/saige-qtl-overview-social.png
 ---
 
 No research articles for a couple of years and now two big papers finally coming out within 10 days of each other!
@@ -66,7 +66,7 @@ SAIGE-QTL builds on the same foundation as SAIGE and SAIGE-GENE(+), keeping all 
 It is also a generalised mixed model, but it uses a Poisson distribution instead, which is better suited for count data such as (single-cell) RNA-seq. It cleverly handles multiple observations per individual, allowing it to model single cells that share identical genotypes.
 
 <figure>
-  <img src="../../images/pubs/saige-qtl.webp" alt="SAIGE-QTL overview: a Poisson mixed model fitted directly to single-cell counts rather than pseudobulk, with histograms contrasting near-Normal bulk expression and highly skewed single-cell expression for SRGAP2; single-variant tests for common variants and set-based tests for rare variants; scalable and robust." />
+  <img src="../../images/pubs/saige-qtl-overview.webp" alt="SAIGE-QTL overview: a Poisson mixed model fitted directly to single-cell counts rather than pseudobulk, with histograms contrasting near-Normal bulk expression and highly skewed single-cell expression for SRGAP2; single-variant tests for common variants and set-based tests for rare variants; scalable and robust." />
   <figcaption>SAIGE-QTL at a glance: a Poisson mixed model fitted directly to single-cell counts, whose distribution (right histogram) looks nothing like bulk expression (top left; Histograms from Cuomo et al., <em>Nature Reviews Genetics</em> 2023.); SAIGE-QTL is robust and scalable enough for datasets like TenK10K (bottom left) and contains implementations of both single-variant tests for common variants and set-based tests for rare variants (right). </figcaption>
 </figure>
 

@@ -137,7 +137,7 @@
     - label: "Website"
       url: "https://weizhou0.github.io/SAIGE-QTL-doc/"
   featured: true
-  image: /images/pubs/saige-qtl.webp
+  image: /images/pubs/saige-qtl-overview.webp
   summary: "SAIGE-QTL: a scalable mixed-model tool that maps eQTLs directly from single cells, without collapsing to pseudobulk, and adds set-based tests for rare variants."
 
 - id: hps-review-2024
