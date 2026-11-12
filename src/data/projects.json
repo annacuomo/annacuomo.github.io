@@ -15,6 +15,7 @@
     "url": "https://annacuomo.github.io/geo-explorer/",
     "tag": "Game",
     "color": "plum",
+    "image": "/images/projects/geo-explorer.webp",
     "summary": "A calm, no-timer geography game in English and Italian, inspired by Facebook's Geo Challenge. Learn flags, capitals, country shapes and where cities are on the map, with a daily world tour, a flag of the day and a passport to fill with stamps.",
     "links": [
       { "label": "How it works", "url": "https://github.com/annacuomo/geo-explorer/blob/main/HOW_IT_WORKS.md" },

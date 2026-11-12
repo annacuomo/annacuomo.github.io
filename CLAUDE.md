@@ -18,7 +18,8 @@ workspace may not have npm access, so validate data files before pushing).
 - `src/content/blog/*.md`: blog posts (`draft: true` hides a post from the site but NOT from this public repo).
 - `src/styles/global.css`: palette and all styling. Pages in `src/pages/`, layout in `src/layouts/Base.astro`,
   components in `src/components/` (PubCard, PaperLinks).
-- Images: `public/images/` (infographic, profile), `public/images/pubs/` (card figures), `public/images/research/`, `public/images/blog/`.
+- Images: `public/images/` (infographic, profile), `public/images/pubs/` (card figures), `public/images/research/`, `public/images/blog/`,
+  `public/images/projects/` (project screenshots, ~1440 px wide WebP).
 
 ## Design decisions Anna has made
 - Palette: background #FBF7F0, text #2A2522, teal #1B6B73, light teal #8CCBCF, plum #7A2E4D, light plum #C98BA6, mustard #F0C75E.
@@ -33,4 +34,4 @@ workspace may not have npm access, so validate data files before pushing).
 
 ## Rules
 - Nothing under embargo goes into this repo (it is public) until the paper is out.
-- The repo is served at annacuomo.github.io/new-website as a preview (noindex) until it is swapped in for annacuomo.github.io.
+- The site is live at annacuomo.github.io (the /new-website preview phase is over).
