@@ -30,6 +30,7 @@ workspace may not have npm access, so validate data files before pushing).
   infographic full width without a panel.
 - CV: publications as a plain list; talks with a year column showing each year once.
 - Phones: menu and the label above the name must stay on one line.
+- Projects page: no screenshots on the cards for now. If they come back, they should be small and every card should have one.
 - Anna is learning: explain which files a change touches so she can follow the commit.
 
 ## Rules
