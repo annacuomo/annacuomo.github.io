@@ -1,0 +1,29 @@
+---
+// Side projects: small tools and apps built for fun and learning.
+// Add a project by adding an entry to src/data/projects.json
+// (title, url, tag, color: teal / teal-light / plum / plum-light / mustard, summary, links, optional image).
+import Base from '../layouts/Base.astro';
+import PaperLinks from '../components/PaperLinks.astro';
+import projects from '../data/projects.json';
+import { url } from '../lib/util';
+
+type Project = { title: string; url: string; tag: string; color: string; summary: string; image?: string; links?: { label: string; url: string }[] };
+const list = projects as Project[];
+---
+<Base title="Projects" description="Side projects by Anna Cuomo: small tools and apps built for fun and learning.">
+  <section style="padding-top:24px">
+    <h1 style="margin-bottom:16px">Projects</h1>
+    <p class="lead" style="max-width:700px;font-size:18px;margin-bottom:40px">
+      Side projects: small tools and apps I build for fun, and to learn new things along the way.
+    </p>
+    {list.map((p) => (
+      <div class={`topic project c-${p.color}`}>
+        <span class={`tag tag-${p.color}`}>{p.tag}</span>
+        <h2><a href={p.url}>{p.title}</a></h2>
+        {p.image && <a href={p.url}><img src={url(p.image)} alt={`Screenshot of ${p.title}`} /></a>}
+        <p class="blurb">{p.summary}</p>
+        <PaperLinks links={p.links ?? []} />
+      </div>
+    ))}
+  </section>
+</Base>

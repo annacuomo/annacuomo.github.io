@@ -1,0 +1,13 @@
+[
+  {
+    "title": "Perturb-seq Explorer",
+    "url": "https://annacuomo.github.io/perturbseq-explorer/",
+    "tag": "Data explorer",
+    "color": "teal",
+    "summary": "Pick a gene knocked down by CRISPRi and see which other genes respond. A browser view of the K562 essential-gene Perturb-seq screen from Replogle et al. 2022, with three ways to rank the changes and a test for which ones are significant.",
+    "links": [
+      { "label": "About & methods", "url": "https://annacuomo.github.io/perturbseq-explorer/about.html" },
+      { "label": "Code", "url": "https://github.com/annacuomo/perturbseq-explorer" }
+    ]
+  }
+]
